@@ -5,8 +5,9 @@ import {
   MapPinIcon,
   UserIcon,
 } from '@heroicons/react/16/solid';
+import { Data } from '@shared/types';
 
-export const mainResponse = {
+export const mainResponse: Data = {
   info: {
     imageUrl: '/photo_2023-12-27_15-15-42.jpg',
     name: 'Матюха Валентин Владимирович',

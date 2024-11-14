@@ -4,7 +4,7 @@ import { mainResponse } from '@shared/mock/main.data';
 
 interface MainProps {}
 export const Main = ({}: MainProps) => {
-  const data = mainResponse;
+  const data = mainResponse as typeof mainResponse;
   return (
     <main className={cls.main}>
       <section className={cls.profile}>
