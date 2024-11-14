@@ -12,21 +12,6 @@ export const AppLayout = ({}: AppLayoutProps) => {
           <Outlet />
         </div>
       </div>
-      <div className={cls.videoBackground}>
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-        >
-          <source
-            src="/back.mp4"
-            type="video/mp4"
-          />
-          Ваш браузер не поддерживает видео фон.
-        </video>
-        <div className={cls.overlay}></div>
-      </div>
       <footer className={cls.footer}>Design by Walentyao</footer>
     </>
   );
