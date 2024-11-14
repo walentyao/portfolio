@@ -1,0 +1,18 @@
+.link {
+  color: var(--color-text-primary);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 6px 12px;
+
+  &:hover {
+    transition: color 0.2s ease-in-out;
+    color: var(--color-text-secondary);
+  }
+}
+
+.is-active {
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  background-color: rgba($color: #3b3b3b, $alpha: 0.3);
+}
