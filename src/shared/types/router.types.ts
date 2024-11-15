@@ -6,4 +6,5 @@ export enum AppRoutes {
   LINKS = 'links',
   ABOUT = 'about',
   NOT_FOUND = 'not_found',
+  REPORT_SEARCH = ' report__search',
 }

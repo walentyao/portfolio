@@ -18,7 +18,7 @@ export const router = createBrowserRouter([
         path: AppRoutes.BIOGRAFY,
         lazy: async () => {
           const { Biography } = await import(
-            '@pages/Biography/biography'
+            '@pages/Biography/Biography'
           );
           return { Component: Biography };
         },
@@ -48,7 +48,7 @@ export const router = createBrowserRouter([
         path: AppRoutes.REPORT_SEARCH,
         lazy: async () => {
           const { ReportSearch } = await import(
-            '@pages/Main/Main'
+            '@pages/ReportSearch/ReportSearch'
           );
           return { Component: ReportSearch };
         },
