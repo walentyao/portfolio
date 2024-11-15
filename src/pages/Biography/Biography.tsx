@@ -1,4 +1,3 @@
-import classNames from 'classnames';
 import cls from './Biography.module.scss';
 import { biographyResponse } from '@shared/mock/main.data';
 
@@ -11,7 +10,10 @@ export const Biography = () => {
       className={cls.biography}
     >
       {data.articles.map(article => (
-        <article>{article}</article>
+        <article className={cls.article}>
+          <h3>{article.title}</h3>
+          <p className={cls.articleBody}>{article.body}</p>
+        </article>
       ))}
     </section>
   );
