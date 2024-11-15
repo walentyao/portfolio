@@ -1,7 +1,6 @@
 import cls from './Biography.module.scss';
 import { biographyResponse } from '@shared/mock/main.data';
 
-interface BiographyProps {}
 export const Biography = () => {
   const data = biographyResponse;
   return (
@@ -18,3 +17,4 @@ export const Biography = () => {
     </section>
   );
 };
+Biography.displaName = 'Biography';
