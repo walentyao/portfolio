@@ -1,14 +1,14 @@
 import classNames from 'classnames';
 import cls from './Main.module.scss';
-import { mainResponseEng } from '@shared/mock/Vala';
+import { useLanguageData } from '@shared/hooks/useLanguageData';
 
 export const Main = () => {
-  const data = mainResponseEng as typeof mainResponseEng;
+  const { mainResponse } = useLanguageData();
   return (
     <main className={cls.main}>
       <section className={cls.profile}>
         <img
-          src={data.info.imageUrl}
+          src={mainResponse.info.imageUrl}
           alt="avatar"
           className={cls.avatar}
         />
@@ -19,7 +19,7 @@ export const Main = () => {
               cls.infoTextName,
             )}
           >
-            {data.info.name}
+            {mainResponse.info.name}
           </h3>
           <p
             className={classNames(
@@ -27,21 +27,21 @@ export const Main = () => {
               cls.infoTextProfession,
             )}
           >
-            {data.info.profession}
+            {mainResponse.info.profession}
           </p>
           <p className={cls.infoText}>
-            {data.info.education}
+            {mainResponse.info.education}
           </p>
           <p className={cls.infoText}>
-            {data.info.themeGraduationPaper}
+            {mainResponse.info.themeGraduationPaper}
           </p>
           <p className={cls.infoText}>
-            {data.info.teacher}
+            {mainResponse.info.teacher}
           </p>
         </div>
       </section>
       <section className={cls.additional}>
-        {data.aboutMe.map(item => (
+        {mainResponse.aboutMe.map(item => (
           <article
             key={item.title}
             className={cls.additionalItem}

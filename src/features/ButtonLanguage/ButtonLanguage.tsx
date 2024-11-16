@@ -7,11 +7,7 @@ import {
   useNavigate,
   useParams,
 } from 'react-router-dom';
-
-enum newLang {
-  RU = 'ru',
-  ENG = 'eng',
-}
+import { newLang } from '@shared/enums';
 
 export const ButtonLanguage = () => {
   const { lg } = useParams();
