@@ -1,4 +1,4 @@
-export const biographyResponseRu = {
+export const biographyResponse = {
   articles: [
     {
       title: 'Личностное становление',
@@ -10,23 +10,6 @@ export const biographyResponseRu = {
     },
     {
       title: 'Цели, планы и видение будущего',
-      body: '',
-    },
-  ],
-};
-
-export const biographyResponseEng = {
-  articles: [
-    {
-      title: 'Personal development',
-      body: '',
-    },
-    {
-      title: 'Professional development',
-      body: '',
-    },
-    {
-      title: 'Goals, plans and vision for the future',
       body: '',
     },
   ],
