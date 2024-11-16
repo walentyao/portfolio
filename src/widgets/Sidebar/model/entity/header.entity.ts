@@ -23,7 +23,11 @@ export const headerItems: HeaderItem[] = [
     text: 'Библиография',
     languages: [lang.RU],
   },
-  { link: AppRoutes.LINKS, text: 'Cсылки', languages: [] },
+  {
+    link: AppRoutes.LINKS,
+    text: 'Cсылки',
+    languages: [lang.RU],
+  },
   {
     link: AppRoutes.REPORT_SEARCH,
     text: 'Отчет о поиске',
