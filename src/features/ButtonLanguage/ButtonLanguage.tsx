@@ -7,13 +7,13 @@ import {
   useNavigate,
   useParams,
 } from 'react-router-dom';
-import { newLang } from '@shared/enums';
+import { lang } from '@shared/enums';
 
 export const ButtonLanguage = () => {
   const { lg } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
-  const changeLanguage = (newLang: newLang) => {
+  const changeLanguage = (newLang: lang) => {
     const newPath = location.pathname.replace(
       /^\/[^/]+/,
       `/${newLang}`,
@@ -24,12 +24,10 @@ export const ButtonLanguage = () => {
     <button
       className={cls.button}
       onClick={() => {
-        changeLanguage(
-          lg === newLang.RU ? newLang.ENG : newLang.RU,
-        );
+        changeLanguage(lg === lang.RU ? lang.ENG : lang.RU);
       }}
     >
-      {lg === newLang.RU ? (
+      {lg === lang.RU ? (
         <img src={Ru} alt="ru" className={cls.img} />
       ) : (
         <img src={Eng} alt="eng" className={cls.img} />

@@ -1,10 +1,12 @@
-import { Outlet } from 'react-router-dom';
+import { Outlet, useParams } from 'react-router-dom';
 import cls from './AppLayout.module.scss';
 import { Sidebar } from '@widgets/Sidebar';
 import { ScrollPanel } from 'primereact/scrollpanel';
 import { ButtonLanguage } from '@features/ButtonLanguage/ButtonLanguage';
+import { lang } from '@shared/enums';
 
 export const AppLayout = () => {
+  const { lg } = useParams();
   return (
     <ScrollPanel
       style={{ width: '100%', height: '100vh' }}
@@ -13,7 +15,7 @@ export const AppLayout = () => {
       <div className={cls.app}>
         <div className={cls.appHeader}>
           <ButtonLanguage />
-          <Sidebar />
+          <Sidebar CurrentLang={(lg as lang) || lang.RU} />
         </div>
         <div className={cls.appPage}>
           <Outlet />
