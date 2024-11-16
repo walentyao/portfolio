@@ -15,6 +15,13 @@ export const router = createBrowserRouter([
         },
       },
       {
+        path: AppRoutes.RESUME,
+        lazy: async () => {
+          const { Main } = await import('@pages/Main/Main');
+          return { Component: Main };
+        },
+      },
+      {
         path: AppRoutes.BIOGRAFY,
         lazy: async () => {
           const { Biography } = await import(

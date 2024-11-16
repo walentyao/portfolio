@@ -1,5 +1,6 @@
 export enum AppRoutes {
-  MAIN = '/',
+  MAIN = '/:lg',
+  RESUME = 'resume',
   BIOGRAFY = 'biography',
   REFERAT = 'referat',
   BIBLIOGRAPHY = 'bibliography',

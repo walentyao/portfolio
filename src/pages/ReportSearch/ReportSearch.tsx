@@ -1,20 +1,24 @@
-import cls from './Biography.module.scss';
-import { biographyResponse } from '@shared/mock/main.data';
+import { DataTable } from 'primereact/datatable';
+import { Column } from 'primereact/column';
 
 export const ReportSearch = () => {
-  const data = biographyResponse;
   return (
-    <section
-      aria-label="biography"
-      className={cls.biography}
+    <DataTable
+      value={[]}
+      tableStyle={{ minWidth: '50rem' }}
     >
-      {data.articles.map(article => (
-        <article className={cls.article}>
-          <h3>{article.title}</h3>
-          <p className={cls.articleBody}>{article.body}</p>
-        </article>
-      ))}
-    </section>
+      <Column field="language" header="Язык"></Column>
+      <Column field="phrase" header="Фраза"></Column>
+      <Column
+        field="search"
+        header="Поисковая система"
+      ></Column>
+      <Column
+        field="document"
+        header="Документы 30.09.2024"
+      ></Column>
+      <Column field="link" header="Ссылки"></Column>
+    </DataTable>
   );
 };
 

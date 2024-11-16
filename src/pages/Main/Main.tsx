@@ -1,9 +1,9 @@
 import classNames from 'classnames';
 import cls from './Main.module.scss';
-import { mainResponse } from '@shared/mock/main.data';
+import { mainResponseEng } from '@shared/mock/Vala';
 
 export const Main = () => {
-  const data = mainResponse as typeof mainResponse;
+  const data = mainResponseEng as typeof mainResponseEng;
   return (
     <main className={cls.main}>
       <section className={cls.profile}>

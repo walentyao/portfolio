@@ -27,6 +27,8 @@
   position: sticky;
   top: 0;
   height: 100%;
+  display: flex;
+  gap: 10px;
 }
 
 .footer {
@@ -37,5 +39,6 @@
   padding: 10px;
   display: flex;
   justify-content: flex-end;
+  box-sizing: border-box;
   font-size: var(--font-size-caption1);
 }

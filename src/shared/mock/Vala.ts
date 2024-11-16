@@ -7,7 +7,7 @@ import {
 } from '@heroicons/react/16/solid';
 import { Data } from '@shared/types';
 
-export const mainResponse: Data = {
+export const mainResponseRu: Data = {
   info: {
     imageUrl: '/photo_2023-12-27_15-15-42.jpg',
     name: 'Матюха Валентин Владимирович',
@@ -97,20 +97,127 @@ export const mainResponse: Data = {
     },
   ],
 };
+export const mainResponseEng: Data = {
+  info: {
+    imageUrl: '/photo_2023-12-27_15-15-42.jpg',
+    name: 'Matyukha Valentin Vladimirovich',
+    profession: 'Frontend developer',
+    education:
+      'Faculty of Computer Technologies and Applied Mathematics Department of Information Technologies Specialty “Applied Mathematics and Computer Science”',
+    themeGraduationPaper:
+      'Development of a system for tracking and analyzing errors and performance metrics of web applications.',
+    teacher: 'Garkusha Oleg Vasilievich',
+  },
+  aboutMe: [
+    {
+      title: 'Personal information',
+      items: [
+        {
+          label: 'FIO',
+          icon: UserIcon,
+          text: 'Matyukha Valentin Vladimirovich',
+        },
+        {
+          label: 'Date of birth',
+          icon: CalendarIcon,
+          text: '25.02.2001',
+        },
+        {
+          label: 'Place of residence',
+          icon: MapPinIcon,
+          text: 'town Krasnodar',
+        },
+      ],
+    },
+    {
+      title: 'Education',
+      items: [
+        {
+          label: 'Education',
+          icon: AcademicCapIcon,
+          text: 'KubSU, Applied mathematics and computer science / 2023-2025',
+        },
+        {
+          label: 'Bachelor degree',
+          icon: AcademicCapIcon,
+          text: 'KubSU, Applied mathematics and computer science / 2019-2023',
+        },
+        {
+          label: 'Average total',
+          icon: AcademicCapIcon,
+          text: 'MBOU Secondary School No. 48 / 2008-2019',
+        },
+      ],
+    },
+    {
+      title: 'Experience',
+      items: [
+        {
+          label: 'MTS',
+          icon: BriefcaseIcon,
+          text: 'Lead Developer, Frontend / 03.2024 - present',
+        },
+        {
+          label: 'Rosseti Kuban',
+          icon: AcademicCapIcon,
+          text: 'Leading Software Engineer / 09.2023 - 03.2024',
+        },
+      ],
+    },
+    {
+      title: 'Skills and Specialization',
+      items: [
+        {
+          label: 'Technology stack',
+          text: 'TS React Redux RTKQuery ReactRouter Zustand Reactflow NodeJS NestJS',
+        },
+        {
+          label: 'Pickers',
+          text: 'Vite Webpack',
+        },
+        {
+          label: 'Databases',
+          text: 'PostgreSQL Oracle MongoDB',
+        },
+        {
+          label: 'Version control',
+          text: 'Git GitLab GitHub',
+        },
+      ],
+    },
+  ],
+};
 
-export const biographyResponse = {
+export const biographyResponseRu = {
   articles: [
     {
       title: 'Личностное становление',
-      body: 'Я родился в Москве, и первые годы жизни прошли в этом динамичном, полным возможностей городе. Однако в детстве наша семья переехала в Краснодар. С самого детства мои родители играли огромную роль в моём развитии, поддерживая меня в любых начинаниях и поощряя интерес к знаниям.Значим фактором в моём становлении стал Университет где я нашёл товарищей по уму.',
+      body: '',
     },
     {
       title: 'Профессиональное становление',
-      body: 'С самого детства меня привлекала точность и логика математики. Я был из тех, кому нравилось решать задачи, разбираться в алгоритмах и находить ответы на сложные вопросы. Именно благодаря этому интересу к точным наукам я рано начал увлекаться программированием. Возможность создавать что-то с нуля, придумывать алгоритмы и видеть результаты своей работы на экране — всё это невероятно вдохновляло меня. В последствии чего я и стал Программистом',
+      body: '',
     },
     {
       title: 'Цели, планы и видение будущего',
-      body: 'Моя цель — не только продолжить развитие в IT-сфере, но и стать профессионалом, способным вносить реальный вклад в индустрию. Я хочу углубить свои знания в таких областях, как искусственный интеллект, обработка данных и автоматизация процессов, так как вижу за этими направлениями будущее и огромный потенциал для инноваций. ',
+      body: '',
+    },
+  ],
+};
+
+export const biographyResponseEng = {
+  articles: [
+    {
+      title: 'Personal development',
+      body: '',
+    },
+    {
+      title: 'Professional development',
+      body: '',
+    },
+    {
+      title: 'Goals, plans and vision for the future',
+      body: '',
     },
   ],
 };
