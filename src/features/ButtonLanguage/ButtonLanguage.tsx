@@ -8,6 +8,7 @@ import {
   useParams,
 } from 'react-router-dom';
 import { lang } from '@shared/enums';
+import { AppRoutes } from '@shared/types';
 
 export const ButtonLanguage = () => {
   const { lg } = useParams();
@@ -18,7 +19,14 @@ export const ButtonLanguage = () => {
       /^\/[^/]+/,
       `/${newLang}`,
     );
-    navigate(newPath);
+    if (
+      newPath.includes(AppRoutes.REFERAT) ||
+      newPath.includes(AppRoutes.RESUME)
+    ) {
+      navigate(newPath);
+    } else {
+      navigate(`/${newLang}/${AppRoutes.REFERAT}`);
+    }
   };
   return (
     <button
