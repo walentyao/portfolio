@@ -6,6 +6,7 @@ export const headerItems: HeaderItem[] = [
   {
     link: AppRoutes.RESUME,
     text: 'Резюме',
+    textEng: 'Resume',
     languages: [lang.RU, lang.ENG],
   },
   {
@@ -16,6 +17,7 @@ export const headerItems: HeaderItem[] = [
   {
     link: AppRoutes.REFERAT,
     text: 'Реферат',
+    textEng: 'Abstract',
     languages: [lang.RU, lang.ENG],
   },
   {

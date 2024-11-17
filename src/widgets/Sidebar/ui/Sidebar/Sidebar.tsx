@@ -23,7 +23,11 @@ export const Sidebar = ({
             <SidebarItem
               key={item.link}
               path={item.link}
-              label={item.text}
+              label={
+                CurrentLang === lang.RU && !item.textEng
+                  ? item.text
+                  : item.textEng!
+              }
             />
           ),
       )}
