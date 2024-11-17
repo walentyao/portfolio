@@ -24,9 +24,9 @@ export const Sidebar = ({
               key={item.link}
               path={item.link}
               label={
-                CurrentLang === lang.RU && !item.textEng
+                CurrentLang === lang.RU
                   ? item.text
-                  : item.textEng!
+                  : item.textEng
               }
             />
           ),

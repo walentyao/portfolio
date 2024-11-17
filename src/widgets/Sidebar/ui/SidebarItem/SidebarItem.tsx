@@ -3,7 +3,7 @@ import { classNames } from 'primereact/utils';
 import cls from './SidebarItem.module.scss';
 
 interface SidebarItemProps {
-  label: string;
+  label?: string;
   path: string;
 }
 export const SidebarItem = ({
@@ -19,7 +19,7 @@ export const SidebarItem = ({
           : cls.link
       }
     >
-      {label}
+      {label ?? '-'}
     </NavLink>
   );
 };
