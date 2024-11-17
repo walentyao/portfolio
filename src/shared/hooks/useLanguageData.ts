@@ -1,7 +1,7 @@
 import {
   mainResponseEng,
   mainResponseRu,
-} from '@shared/mock/Vala';
+} from '@shared/mock/Matvey';
 import { useParams } from 'react-router-dom';
 import { lang } from '@shared/enums';
 
