@@ -188,6 +188,54 @@ export const mainResponseEng: Data = {
   ],
 };
 
+export const referatResponseEng = [
+  {
+    title: 'Introduction',
+    body: 'Effective warehouse management is a critical element of modern logistics, which determines the speed of order fulfillment, cost optimization and the level of customer service. The development of a system capable of automatically distributing goods in a warehouse, taking into account the most efficient algorithm, becomes an innovative solution. Such an implementation makes it possible to reduce the influence of the human factor, increase the accuracy of placement and reduce costs, which is especially important in conditions of high demands on the efficiency and scalability of warehouse processes.',
+  },
+  {
+    title: 'Principles of the goods distribution system',
+    body: 'The distribution system is based on the collection and analysis of data on the characteristics of the warehouse, types of goods, the frequency of their movement and the needs of customers. The key component is an algorithm that adapts to current working conditions and chooses the most effective approach to product placement. The automation principle provides dynamic data updates and real-time placement optimization. The system analyzes the warehouse space, route diagrams, as well as parameters such as weight, volume and turnover rate of goods in order to minimize the cost of storage and movement.',
+  },
+  {
+    title: 'Algorithms and technologies used in the system',
+    body: 'Automatic determination of the distribution algorithm requires the use of modern data processing methods, including machine learning and analytical models. The main algorithms include clustering, heuristic methods, and predictive analytics. These technologies make it possible to identify patterns in the flow of goods and adapt their placement schemes depending on seasonal fluctuations in demand or changes in the structure of orders. Integration with Warehouse Management Systems (WMS) and the use of IoT sensors for real-time tracking enhance the functionality of the system.',
+  },
+  {
+    title:
+      'Advantages and challenges of the automated approach',
+    body: 'The introduction of an automated product distribution system brings significant benefits, including reduced order processing time, improved storage space utilization and reduced placement errors. However, the development and implementation process is accompanied by a number of challenges, such as the complexity of integration with existing infrastructure, the need to process large amounts of data and ensure the reliability of the system under high loads. In addition, developers have to take into account the need to take into account the specifics of warehouses, including their size, configuration and types of stored goods.',
+  },
+  {
+    title: 'Conclusion',
+    body: 'The development of a product distribution system with automatic detection of algorithms opens up new horizons in the management of warehouse processes. Such systems provide a high level of flexibility and allow you to adapt to constantly changing market conditions and customer needs. In the future, we can expect further improvements in technology, including strengthening the role of artificial intelligence, the introduction of robotic solutions and the creation of fully autonomous warehouses. These innovations will not only improve the economic performance of enterprises, but also increase the sustainability of logistics processes on a global scale.',
+  },
+];
+
+export const referatResponseRu = [
+  {
+    title: 'Введение',
+    body: 'Эффективное управление складом является критически важным элементом современной логистики, от которого зависят скорость выполнения заказов, оптимизация затрат и уровень клиентского обслуживания. Разработка системы, способной автоматически распределять товары на складе с учетом наиболее эффективного алгоритма, становится инновационным решением. Такое внедрение позволяет снизить влияние человеческого фактора, повысить точность размещения и сократить издержки, что особенно важно в условиях высоких требований к оперативности и масштабируемости складских процессов.',
+  },
+  {
+    title: 'Принципы работы системы распределения товаров',
+    body: 'Система распределения основана на сборе и анализе данных о характеристиках склада, типах товаров, частоте их перемещения и потребностях клиентов. Ключевым компонентом является алгоритм, который адаптируется к текущим условиям работы и выбирает наиболее эффективный подход к размещению товаров. Принцип автоматизации обеспечивает динамическое обновление данных и оптимизацию размещения в реальном времени. Система анализирует пространство склада, маршрутные схемы, а также параметры, такие как вес, объем и скорость оборачиваемости товаров, чтобы минимизировать затраты на хранение и перемещение.',
+  },
+  {
+    title: 'Алгоритмы и технологии, применяемые в системе',
+    body: 'Автоматическое определение алгоритма распределения требует использования современных методов обработки данных, включая машинное обучение и аналитические модели. Основные алгоритмы включают кластеризацию, эвристические методы и предсказательную аналитику. Эти технологии позволяют выявлять закономерности в потоках товаров и адаптировать схемы их размещения в зависимости от сезонных колебаний спроса или изменений в структуре заказов. Интеграция с системами управления складом (WMS) и использование сенсоров IoT для отслеживания в реальном времени усиливают функциональность системы.',
+  },
+  {
+    title:
+      'Преимущества и вызовы автоматизированного подхода',
+    body: 'Внедрение автоматизированной системы распределения товаров приносит значительные преимущества, включая сокращение времени на обработку заказов, улучшение использования складского пространства и снижение ошибок при размещении. Однако процесс разработки и реализации сопровождается рядом вызовов, таких как сложность интеграции с существующей инфраструктурой, необходимость обработки больших объемов данных и обеспечение надежности работы системы в условиях высоких нагрузок. Кроме того, разработчикам приходится учитывать необходимость учета специфики складов, включая их размеры, конфигурацию и типы хранимых товаров.',
+  },
+  {
+    title: 'Заключение',
+    body: 'Разработка системы распределения товаров с автоматическим определением алгоритмов открывает новые горизонты в управлении складскими процессами. Такие системы обеспечивают высокий уровень гибкости и позволяют адаптироваться к постоянно меняющимся условиям рынка и запросам клиентов. В будущем можно ожидать дальнейшего совершенствования технологий, включая усиление роли искусственного интеллекта, внедрение роботизированных решений и создание полностью автономных складов. Эти инновации позволят не только улучшить экономические показатели предприятий, но и повысить устойчивость логистических процессов в глобальном масштабе.',
+  },
+];
+
 export const biographyResponse = {
   articles: [
     {

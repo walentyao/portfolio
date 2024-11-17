@@ -1,7 +1,9 @@
 import {
   mainResponseEng,
   mainResponseRu,
-} from '@shared/mock/Matvey';
+  referatResponseRu,
+  referatResponseEng,
+} from '@shared/mock/Marko';
 import { useParams } from 'react-router-dom';
 import { lang } from '@shared/enums';
 
@@ -9,5 +11,7 @@ export const useLanguageData = () => {
   const { lg } = useParams();
   const mainResponse =
     lg === lang.RU ? mainResponseRu : mainResponseEng;
-  return { mainResponse };
+  const referatResponse =
+    lg === lang.RU ? referatResponseRu : referatResponseEng;
+  return { mainResponse, referatResponse };
 };

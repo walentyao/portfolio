@@ -33,8 +33,10 @@ export const router = createBrowserRouter([
       {
         path: AppRoutes.REFERAT,
         lazy: async () => {
-          const { Main } = await import('@pages/Main/Main');
-          return { Component: Main };
+          const { Referat } = await import(
+            '@pages/Referat/Referat'
+          );
+          return { Component: Referat };
         },
       },
       {

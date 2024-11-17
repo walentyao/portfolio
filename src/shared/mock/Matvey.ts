@@ -201,6 +201,56 @@ export const mainResponseEng: Data = {
   ],
 };
 
+export const referatResponseRu = [
+  {
+    title: 'Введение',
+    body: 'Безопасность веб-приложений — это фундаментальная составляющая современной разработки, направленная на защиту данных пользователей, предотвращение сбоев в работе систем и минимизацию рисков несанкционированного доступа. В условиях постоянно растущей зависимости от веб-сервисов угроза атак становится критически важной проблемой, требующей внедрения эффективных стратегий защиты. Введение в тему безопасности фокусируется на важности создания устойчивых систем, которые не только защищают данные, но и укрепляют доверие пользователей.',
+  },
+  {
+    title: 'Основные угрозы и уязвимости веб-приложений',
+    body: 'Современные веб-приложения сталкиваются с множеством угроз, включая SQL-инъекции, межсайтовые скрипты (XSS), атаки с использованием CSRF и эксплойты в сторонних библиотеках. Эти уязвимости часто возникают из-за ошибок в коде, недостаточного тестирования или использования устаревших технологий. Хакеры могут эксплуатировать такие слабые места для кражи конфиденциальной информации, нарушения работы приложений или их полного выведения из строя. Анализ основных типов уязвимостей позволяет разработчикам понимать природу угроз и принимать проактивные меры для их предотвращения.',
+  },
+  {
+    title: 'Подходы к обеспечению безопасности',
+    body: 'Для борьбы с уязвимостями необходимо применять комплексный подход, включающий внедрение защищенной архитектуры, регулярные аудиты кода и мониторинг системы. Ключевую роль играет разработка с учетом принципов безопасного программирования: использование проверенных библиотек, защита данных на уровне шифрования, а также реализация строгой системы контроля доступа. Кроме того, тестирование на проникновение и использование автоматизированных средств анализа помогают своевременно выявлять и устранять слабые места в системе. Эффективная стратегия безопасности строится на принципах многослойной защиты, где каждая часть системы усиливает общую устойчивость к атакам.',
+  },
+  {
+    title:
+      'Текущие вызовы и перспективы в борьбе с уязвимостями',
+    body: 'Несмотря на значительный прогресс в технологиях безопасности, разработчики продолжают сталкиваться с новыми вызовами. Быстрое развитие технологий, таких как искусственный интеллект и микросервисная архитектура, увеличивает сложность систем и требует обновления подходов к защите. Кроме того, необходимость балансировки между удобством для пользователей и уровнем безопасности создает дополнительное напряжение. Перспективы борьбы с уязвимостями включают усиление автоматизации процессов обнаружения угроз, внедрение AI-алгоритмов для анализа поведения системы и создание глобальных стандартов безопасности для унификации подходов.',
+  },
+  {
+    title: 'Заключение: Значимость профилактики и обучения',
+    body: 'Обеспечение безопасности веб-приложений — это не одноразовая задача, а постоянный процесс, требующий адаптации к новым вызовам и угрозам. Применение проактивных мер, таких как регулярное обучение разработчиков основам безопасного программирования, тестирование и мониторинг системы, позволяет минимизировать риски и создать более устойчивые приложения. В будущем акцент будет сделан на интеграции автоматизированных решений и международном сотрудничестве для борьбы с киберугрозами, что станет ключом к созданию безопасной цифровой среды для всех пользователей.',
+  },
+];
+
+export const referatResponseEng = [
+  {
+    title: 'Introduction',
+    body: 'Web application security is a fundamental component of modern development aimed at protecting user data, preventing system failures and minimizing the risks of unauthorized access. With the ever-increasing dependence on web services, the threat of attacks is becoming a critical issue that requires the implementation of effective protection strategies. The introduction to the topic of security focuses on the importance of creating sustainable systems that not only protect data, but also strengthen user trust.',
+  },
+  {
+    title:
+      'The main threats and vulnerabilities of web applications',
+    body: 'Modern web applications face a variety of threats, including SQL injection, cross-site scripting (XSS), CSRF attacks, and exploits in third-party libraries. These vulnerabilities are often caused by errors in the code, insufficient testing, or the use of outdated technologies. Hackers can exploit such weaknesses to steal confidential information, disrupt applications, or completely disable them. Analyzing the main types of vulnerabilities allows developers to understand the nature of threats and take proactive measures to prevent them.',
+  },
+  {
+    title: 'Approaches to security',
+    body: 'To combat vulnerabilities, it is necessary to apply an integrated approach, including the implementation of a secure architecture, regular code audits and system monitoring. The key role is played by the development taking into account the principles of secure programming: the use of proven libraries, data protection at the encryption level, as well as the implementation of a strict access control system. In addition, penetration testing and the use of automated analysis tools help to identify and eliminate weaknesses in the system in a timely manner. An effective security strategy is based on the principles of multi-layered protection, where each part of the system enhances the overall resistance to attacks.',
+  },
+  {
+    title:
+      'Current challenges and prospects in the fight against vulnerabilities',
+    body: 'Despite significant progress in security technologies, developers continue to face new challenges. The rapid development of technologies such as artificial intelligence and micro-service architecture increases the complexity of systems and requires updating security approaches. In addition, the need to balance user convenience and the level of security creates additional stress. The prospects for dealing with vulnerabilities include increased automation of threat detection processes, the introduction of AI algorithms for analyzing system behavior, and the creation of global security standards to unify approaches.',
+  },
+  {
+    title:
+      'Conclusion: The importance of prevention and education',
+    body: 'Securing web applications is not a one-time task, but an ongoing process that requires adaptation to new challenges and threats. The use of proactive measures, such as regular training of developers in the basics of secure programming, testing and monitoring of the system, allows you to minimize risks and create more sustainable applications. In the future, the focus will be on the integration of automated solutions and international cooperation to combat cyber threats, which will be the key to creating a secure digital environment for all users.',
+  },
+];
+
 export const biographyResponse = {
   articles: [
     {
