@@ -40,17 +40,21 @@ export const router = createBrowserRouter([
         },
       },
       {
-        path: AppRoutes.BIBLIOGRAPHY,
+        path: AppRoutes.LIBRARY,
         lazy: async () => {
-          const { Main } = await import('@pages/Main/Main');
-          return { Component: Main };
+          const { Library } = await import(
+            '@pages/Library/Library'
+          );
+          return { Component: Library };
         },
       },
       {
         path: AppRoutes.LINKS,
         lazy: async () => {
-          const { Main } = await import('@pages/Main/Main');
-          return { Component: Main };
+          const { Links } = await import(
+            '@pages/Links/Links'
+          );
+          return { Component: Links };
         },
       },
       {

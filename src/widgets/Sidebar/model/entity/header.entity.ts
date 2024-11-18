@@ -21,8 +21,8 @@ export const headerItems: HeaderItem[] = [
     languages: [lang.RU, lang.ENG],
   },
   {
-    link: AppRoutes.BIBLIOGRAPHY,
-    text: 'Библиография',
+    link: AppRoutes.LIBRARY,
+    text: 'Библиотека',
     languages: [lang.RU],
   },
   {

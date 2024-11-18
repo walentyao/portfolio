@@ -3,7 +3,7 @@ export enum AppRoutes {
   RESUME = 'resume',
   BIOGRAFY = 'biography',
   REFERAT = 'referat',
-  BIBLIOGRAPHY = 'bibliography',
+  LIBRARY = 'library',
   LINKS = 'links',
   ABOUT = 'about',
   NOT_FOUND = 'not_found',
