@@ -2,6 +2,8 @@ import {
   AcademicCapIcon,
   BriefcaseIcon,
   CalendarIcon,
+  DevicePhoneMobileIcon,
+  InboxIcon,
   MapPinIcon,
   UserIcon,
 } from '@heroicons/react/16/solid';
@@ -56,6 +58,16 @@ export const mainResponseRu: Data = {
           label: 'Среднее общее',
           icon: AcademicCapIcon,
           text: 'МБОУ СОШ №48 / 2008-2019',
+        },
+        {
+          label: 'Телефон',
+          icon: DevicePhoneMobileIcon,
+          text: '8-999-999-99-99',
+        },
+        {
+          label: 'Почта',
+          icon: InboxIcon,
+          text: 'example.com',
         },
       ],
     },
@@ -126,6 +138,16 @@ export const mainResponseEng: Data = {
           label: 'Place of residence',
           icon: MapPinIcon,
           text: 'town Krasnodar',
+        },
+        {
+          label: 'telephone',
+          icon: DevicePhoneMobileIcon,
+          text: '8-999-999-99-99',
+        },
+        {
+          label: 'email',
+          icon: InboxIcon,
+          text: 'example.com',
         },
       ],
     },
