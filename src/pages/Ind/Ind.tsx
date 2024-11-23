@@ -1,4 +1,4 @@
-import { PersonalLink } from '@shared/mock/Marko';
+import { PersonalLink } from '@shared/mock/Violetta';
 import cls from './Ind.module.scss';
 
 export const Ind = () => {

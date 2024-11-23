@@ -1,6 +1,6 @@
 import { Card } from 'primereact/card';
 import cls from './Links.module.scss';
-import { LinkResponse } from '@shared/mock/Marko';
+import { LinkResponse } from '@shared/mock/Violetta';
 
 const header = (
   <img

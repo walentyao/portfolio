@@ -1,4 +1,4 @@
-import { LibraryResponse } from '@shared/mock/Vala';
+import { LibraryResponse } from '@shared/mock/Violetta';
 import cls from './Library.module.scss';
 import { Card } from 'primereact/card';
 

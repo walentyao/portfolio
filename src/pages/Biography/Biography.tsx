@@ -1,5 +1,5 @@
 import cls from './Biography.module.scss';
-import { biographyResponse } from '@shared/mock/Vala';
+import { biographyResponse } from '@shared/mock/Violetta';
 
 export const Biography = () => {
   const data = biographyResponse;

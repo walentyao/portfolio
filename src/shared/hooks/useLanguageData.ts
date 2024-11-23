@@ -3,7 +3,7 @@ import {
   mainResponseRu,
   referatResponseRu,
   referatResponseEng,
-} from '@shared/mock/Marko';
+} from '@shared/mock/Violetta';
 import { useParams } from 'react-router-dom';
 import { lang } from '@shared/enums';
 

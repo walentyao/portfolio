@@ -1,6 +1,6 @@
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
-import { reportSearchResponse } from '@shared/mock/Vala';
+import { reportSearchResponse } from '@shared/mock/Violetta';
 
 export const ReportSearch = () => {
   const linkBodyTemplate = (report: any) => {
