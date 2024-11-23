@@ -8,10 +8,7 @@ import { lang } from '@shared/enums';
 export const AppLayout = () => {
   const { lg } = useParams();
   return (
-    <ScrollPanel
-      style={{ width: '100%', height: '100vh' }}
-      className="custombar1"
-    >
+    <ScrollPanel style={{ width: '100%', height: '100vh' }}>
       <div className={cls.app}>
         <div className={cls.appHeader}>
           <ButtonLanguage />

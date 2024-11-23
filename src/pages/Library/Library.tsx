@@ -9,8 +9,8 @@ export const Library = () => {
       <h3 className={cls.title}>
         Библиотека материалов по теме выпускной работы
       </h3>
-      {data.map(link => (
-        <Card className={cls.card}>
+      {data.map((link, index) => (
+        <Card key={index} className={cls.card}>
           <p className={cls.cardTitle}>{link.title}</p>
           <p className={cls.authors}>{link.authors}</p>
           <p>{link.description}</p>

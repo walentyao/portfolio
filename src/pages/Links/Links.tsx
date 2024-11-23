@@ -12,7 +12,7 @@ const header = (
 export const Links = () => {
   const data = LinkResponse;
   return (
-    <section aria-label="Links">
+    <section aria-label="Links" className={cls.links}>
       <p className={cls.title}>
         Техническая и справочная литература
         <div className={cls.cardList}>

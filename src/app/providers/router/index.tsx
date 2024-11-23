@@ -1,6 +1,9 @@
 import { AppLayout } from '@layouts/AppLayout';
 import { AppRoutes } from '@shared/types';
-import { createBrowserRouter } from 'react-router-dom';
+import {
+  createBrowserRouter,
+  Navigate,
+} from 'react-router-dom';
 
 export const router = createBrowserRouter([
   {
@@ -74,5 +77,9 @@ export const router = createBrowserRouter([
         },
       },
     ],
+  },
+  {
+    path: '*',
+    element: <Navigate to={'/ru'} />,
   },
 ]);

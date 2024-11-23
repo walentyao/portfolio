@@ -10,8 +10,8 @@ export const Referat = () => {
   return (
     <section aria-label="referat" className={cls.biography}>
       <Accordion multiple activeIndex={[0]}>
-        {referatResponse.map(article => (
-          <AccordionTab header={article.title}>
+        {referatResponse.map((article, index) => (
+          <AccordionTab key={index} header={article.title}>
             <p>{article.body}</p>
           </AccordionTab>
         ))}

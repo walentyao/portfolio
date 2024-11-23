@@ -1,3 +1,4 @@
+import { Card } from 'primereact/card';
 import cls from './Biography.module.scss';
 import { biographyResponse } from '@shared/mock/Violetta';
 
@@ -8,11 +9,14 @@ export const Biography = () => {
       aria-label="biography"
       className={cls.biography}
     >
-      {data.articles.map(article => (
-        <article className={cls.article}>
-          <h3>{article.title}</h3>
+      {data.articles.map((article, index) => (
+        <Card
+          key={index}
+          title={article.title}
+          className={cls.article}
+        >
           <p className={cls.articleBody}>{article.body}</p>
-        </article>
+        </Card>
       ))}
     </section>
   );

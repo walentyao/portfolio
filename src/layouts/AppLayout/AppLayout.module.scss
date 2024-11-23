@@ -5,7 +5,6 @@
   flex-direction: row;
   column-gap: 20px;
   justify-content: center;
-  overflow-y: auto;
 }
 
 .app-page {
@@ -23,7 +22,7 @@
 .app-header {
   padding-top: 20px;
   z-index: 3;
-  max-width: 250px;
+  width: 250px;
   position: sticky;
   top: 0;
   height: 100%;
