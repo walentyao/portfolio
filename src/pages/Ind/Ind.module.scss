@@ -1,0 +1,14 @@
+.ind {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-title {
+    font-size: 28px;
+  }
+  &-video {
+    width: 600px;
+    height: 500px;
+  }
+}

@@ -486,3 +486,47 @@ export const LibraryResponse = [
       "Конференция 'Современные веб-технологии', 2024",
   },
 ];
+export const LinkResponse = {
+  literature: [
+    {
+      title:
+        'Monitoring and Observability for Modern Web Applications',
+      authors: 'Cindy Sridharan',
+      description:
+        'Книга подробно описывает подходы к мониторингу и наблюдаемости в веб-приложениях, включая использование метрик, журналов и трассировок для анализа производительности и ошибок.',
+    },
+    {
+      title:
+        'Site Reliability Engineering: How Google Runs Production Systems',
+      authors:
+        'Niall Richard Murphy, Betsy Beyer, Chris Jones, Jennifer Petoff',
+      description:
+        'Эта книга рассказывает о принципах и практиках, используемых Google для построения надежных и производительных систем, включая инструменты для отслеживания ошибок и управления метриками.',
+    },
+    {
+      title:
+        'Practical Monitoring: Effective Strategies for the Real World',
+      authors: 'Mike Julian',
+      description:
+        'Книга дает практическое руководство по настройке систем мониторинга и анализа производительности, описывает инструменты и процессы для быстрого обнаружения проблем и их устранения.',
+    },
+  ],
+  saits: [
+    {
+      link: 'https://sentry.io',
+      description:
+        'Sentry — популярная платформа для мониторинга ошибок и производительности приложений. Предоставляет инструменты для обнаружения, анализа и устранения проблем в реальном времени.',
+    },
+    {
+      link: 'https://grafana.com',
+      description:
+        'Grafana — платформа для визуализации и анализа метрик. Используется для построения дашбордов, отслеживания производительности и интеграции с системами мониторинга, такими как Prometheus и Loki.',
+    },
+  ],
+};
+
+export const PersonalLink = {
+  title: 'Люблю Яблоки',
+  video: '/Реклама Apple Macintosh 1984.mp4',
+  preview: '/images.jpg',
+};

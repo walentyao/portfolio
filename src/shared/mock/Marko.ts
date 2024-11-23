@@ -486,3 +486,45 @@ export const LibraryResponse = [
     source: 'Logistics.by, 2024',
   },
 ];
+
+export const LinkResponse = {
+  literature: [
+    {
+      title: 'Warehouse & Distribution Science',
+      authors: 'John Bartholdi, Steven Hackman',
+      description:
+        'Книга посвящена оптимизации складских операций, включая алгоритмы распределения товаров, маршрутизацию и управление запасами. Рассматриваются методы повышения эффективности с использованием автоматизации.',
+    },
+    {
+      title:
+        'Design and Analysis of Algorithms for Warehouse Management',
+      authors: 'Peter Sanders, Kurt Mehlhorn',
+      description:
+        'Издание сосредоточено на алгоритмах, применимых для управления складскими системами, включая методы планирования размещения товаров, обработки заказов и выбора маршрутов для минимизации затрат.',
+    },
+    {
+      title: 'The Warehouse Management Handbook',
+      authors: 'James A. Tompkins, Jerry D. Smith',
+      description:
+        'Практическое руководство по управлению складом с акцентом на автоматизацию процессов, выбор подходящих алгоритмов и разработку систем управления складом для повышения производительности.',
+    },
+  ],
+  saits: [
+    {
+      link: 'https://www.supplychaindive.com/',
+      description:
+        'Портал о логистике и цепочках поставок, включающий статьи, исследования и аналитические обзоры по управлению складскими процессами и автоматизации распределения.',
+    },
+    {
+      link: 'https://www.logisticsmgmt.com/',
+      description:
+        'Ресурс, посвященный управлению логистикой и складскими процессами. Содержит новости, тренды и примеры внедрения автоматизированных систем управления складом.',
+    },
+  ],
+};
+
+export const PersonalLink = {
+  title: 'Люблю работать под классическую музыку',
+  video: '/classic.mp4',
+  preview: '/classical-music.jpg',
+};

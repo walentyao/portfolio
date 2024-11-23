@@ -35,4 +35,9 @@ export const headerItems: HeaderItem[] = [
     text: 'Отчет о поиске',
     languages: [lang.RU],
   },
+  {
+    link: AppRoutes.IND_SECTION,
+    text: 'Индивидуальный раздел',
+    languages: [lang.RU],
+  },
 ];

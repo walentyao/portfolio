@@ -3,7 +3,7 @@ import { Column } from 'primereact/column';
 import { reportSearchResponse } from '@shared/mock/Vala';
 
 export const ReportSearch = () => {
-  const linkBodyTemplate = report => {
+  const linkBodyTemplate = (report: any) => {
     return (
       <a
         href={`${report.link}`}

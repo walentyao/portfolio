@@ -66,6 +66,13 @@ export const router = createBrowserRouter([
           return { Component: ReportSearch };
         },
       },
+      {
+        path: AppRoutes.IND_SECTION,
+        lazy: async () => {
+          const { Ind } = await import('@pages/Ind/Ind');
+          return { Component: Ind };
+        },
+      },
     ],
   },
 ]);

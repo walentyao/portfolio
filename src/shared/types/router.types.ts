@@ -8,4 +8,5 @@ export enum AppRoutes {
   ABOUT = 'about',
   NOT_FOUND = 'not_found',
   REPORT_SEARCH = ' report_search',
+  IND_SECTION = 'ind_section',
 }

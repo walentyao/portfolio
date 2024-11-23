@@ -502,3 +502,44 @@ export const LibraryResponse = [
     source: 'Хабр, 2024',
   },
 ];
+
+export const LinkResponse = {
+  literature: [
+    {
+      title: 'OWASP Top Ten: Защита веб-приложений',
+      authors: 'OWASP Foundation',
+      description:
+        'Краткое и доступное руководство по основным угрозам безопасности веб-приложений, включая уязвимости, входящие в список OWASP Top Ten. Описаны методы защиты и лучшие практики разработки безопасного ПО.',
+    },
+    {
+      title: 'Web Application Security, A Beginner’s Guide',
+      authors: 'Bryan Sullivan, Vincent Liu',
+      description:
+        'Практическое руководство для начинающих по обеспечению безопасности веб-приложений. Рассматриваются наиболее распространенные угрозы и методы их предотвращения, включая примеры на реальных кейсах.',
+    },
+    {
+      title: 'Hacking Exposed Web Applications',
+      authors: 'Joel Scambray, Vincent Liu, Caleb Sima',
+      description:
+        'Книга, посвященная методам выявления и устранения уязвимостей в веб-приложениях. Содержит информацию о новых технологиях и подходах к тестированию безопасности.',
+    },
+  ],
+  saits: [
+    {
+      link: 'https://owasp.org',
+      description:
+        'Официальный сайт OWASP (Open Web Application Security Project) — ведущей организации, предоставляющей ресурсы, инструменты и руководства по обеспечению безопасности веб-приложений.',
+    },
+    {
+      link: 'https://portswigger.net',
+      description:
+        'Сайт компании PortSwigger, разработчика инструмента Burp Suite для тестирования безопасности. Содержит блоги, учебные материалы и Web Security Academy — бесплатный ресурс для изучения кибербезопасности.',
+    },
+  ],
+};
+
+export const PersonalLink = {
+  title: 'Каждый раз перед сдачей проекта',
+  video: '/VID_20241120_194536_534.mp4',
+  preview: '/harlamov.png',
+};
