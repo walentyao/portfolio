@@ -10,8 +10,8 @@ COPY --from=build /app/dist /usr/share/nginx/html
 COPY --from=build /app/.nginx/nginx.conf /etc/nginx/conf.d/default.conf
 
 # Copy SSL certificates
-COPY ./path/to/yourdomain.crt /etc/ssl/certs/yourdomain.crt
-COPY ./path/to/yourdomain.key /etc/ssl/private/yourdomain.key
+COPY /certs/walentyao.crt /etc/ssl/certs/walentyao.crt
+COPY /certs/walentyao.key /etc/ssl/private/walentyao.key
 
 EXPOSE 80 443
 CMD ["nginx", "-g", "daemon off;"]
