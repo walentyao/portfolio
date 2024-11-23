@@ -565,3 +565,15 @@ export const PersonalLink = {
   video: '/VID_20241120_194536_534.mp4',
   preview: '/harlamov.png',
 };
+
+export default {
+  mainResponseRu: mainResponseRu,
+  mainResponseEng: mainResponseEng,
+  referatResponseRu: referatResponseRu,
+  referatResponseEng: referatResponseEng,
+  biographyResponse: biographyResponse,
+  reportSearchResponse: reportSearchResponse,
+  LibraryResponse: LibraryResponse,
+  LinkResponse: LinkResponse,
+  PersonalLink: PersonalLink,
+};

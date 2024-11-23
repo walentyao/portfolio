@@ -565,3 +565,15 @@ export const PersonalLink = {
     '/UX и UI инструменты для  веб-дизайна и мобильного дизайна.mp4',
   preview: '/ui.png',
 };
+
+export default {
+  mainResponseRu: mainResponseRu,
+  mainResponseEng: mainResponseEng,
+  referatResponseRu: referatResponseRu,
+  referatResponseEng: referatResponseEng,
+  biographyResponse: biographyResponse,
+  reportSearchResponse: reportSearchResponse,
+  LibraryResponse: LibraryResponse,
+  LinkResponse: LinkResponse,
+  PersonalLink: PersonalLink,
+};

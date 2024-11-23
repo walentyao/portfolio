@@ -1,6 +1,8 @@
 import { Card } from 'primereact/card';
+import { useContext } from 'react';
+import { ContextUsername } from '@shared/context/username.context';
+import { user } from '@shared/mock';
 import cls from './Links.module.scss';
-import { LinkResponse } from '@shared/mock/Violetta';
 
 const header = (
   <img
@@ -10,7 +12,10 @@ const header = (
 );
 
 export const Links = () => {
+  const username = useContext(ContextUsername);
+  const { LinkResponse } = user[username];
   const data = LinkResponse;
+
   return (
     <section aria-label="Links" className={cls.links}>
       <p className={cls.title}>

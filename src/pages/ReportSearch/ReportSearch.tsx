@@ -1,9 +1,14 @@
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
-import { reportSearchResponse } from '@shared/mock/Violetta';
 import cls from './ReportSearch.module.scss';
+import { useContext } from 'react';
+import { ContextUsername } from '@shared/context/username.context';
+import { user } from '@shared/mock';
 
 export const ReportSearch = () => {
+  const username = useContext(ContextUsername);
+  const { reportSearchResponse } = user[username];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const linkBodyTemplate = (report: any) => {
     return (
       <a

@@ -552,3 +552,15 @@ export const PersonalLink = {
   video: '/Реклама Apple Macintosh 1984.mp4',
   preview: '/images.jpg',
 };
+
+export default {
+  mainResponseRu: mainResponseRu,
+  mainResponseEng: mainResponseEng,
+  referatResponseRu: referatResponseRu,
+  referatResponseEng: referatResponseEng,
+  biographyResponse: biographyResponse,
+  reportSearchResponse: reportSearchResponse,
+  LibraryResponse: LibraryResponse,
+  LinkResponse: LinkResponse,
+  PersonalLink: PersonalLink,
+};

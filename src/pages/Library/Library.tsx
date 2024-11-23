@@ -1,8 +1,12 @@
-import { LibraryResponse } from '@shared/mock/Violetta';
-import cls from './Library.module.scss';
 import { Card } from 'primereact/card';
+import { useContext } from 'react';
+import { ContextUsername } from '@shared/context/username.context';
+import { user } from '@shared/mock';
+import cls from './Library.module.scss';
 
 export const Library = () => {
+  const username = useContext(ContextUsername);
+  const { LibraryResponse } = user[username];
   const data = LibraryResponse;
   return (
     <section aria-label="Library">

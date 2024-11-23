@@ -1,8 +1,12 @@
 import { Card } from 'primereact/card';
+import { useContext } from 'react';
+import { ContextUsername } from '@shared/context/username.context';
+import { user } from '@shared/mock';
 import cls from './Biography.module.scss';
-import { biographyResponse } from '@shared/mock/Violetta';
 
 export const Biography = () => {
+  const username = useContext(ContextUsername);
+  const { biographyResponse } = user[username];
   const data = biographyResponse;
   return (
     <section

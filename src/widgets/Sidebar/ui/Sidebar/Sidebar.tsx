@@ -7,11 +7,13 @@ import { lang } from '@shared/enums';
 interface SidebarProps {
   className?: string;
   CurrentLang: lang;
+  username?: string;
 }
 
 export const Sidebar = ({
   className,
   CurrentLang,
+  username,
 }: SidebarProps) => {
   return (
     <aside
@@ -22,7 +24,7 @@ export const Sidebar = ({
           item.languages.includes(CurrentLang) && (
             <SidebarItem
               key={item.link}
-              path={item.link}
+              path={`${username}/${item.link}`}
               label={
                 CurrentLang === lang.RU
                   ? item.text

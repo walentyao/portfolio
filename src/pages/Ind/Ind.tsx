@@ -1,7 +1,11 @@
-import { PersonalLink } from '@shared/mock/Violetta';
+import { user } from '@shared/mock';
+import { ContextUsername } from '@shared/context/username.context';
+import { useContext } from 'react';
 import cls from './Ind.module.scss';
 
 export const Ind = () => {
+  const username = useContext(ContextUsername);
+  const { PersonalLink } = user[username];
   const data = PersonalLink;
   return (
     <section aria-label="Ind" className={cls.ind}>
