@@ -550,6 +550,40 @@ export const PersonalLink = {
   video: '/classic.mp4',
   preview: '/classical-music.jpg',
 };
+export const UemkResponse = {
+  titleKurs: 'Разработка на TypeScript',
+  descriptionKurs: '',
+  lectures: [
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+  ],
+};
 
 export default {
   mainResponseRu: mainResponseRu,
@@ -561,4 +595,5 @@ export default {
   LibraryResponse: LibraryResponse,
   LinkResponse: LinkResponse,
   PersonalLink: PersonalLink,
+  UemkResponse: UemkResponse,
 };

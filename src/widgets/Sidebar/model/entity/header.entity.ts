@@ -40,4 +40,9 @@ export const headerItems: HeaderItem[] = [
     text: 'Индивидуальный раздел',
     languages: [lang.RU],
   },
+  {
+    link: AppRoutes.UEMK,
+    text: 'УЭМК',
+    languages: [lang.RU],
+  },
 ];

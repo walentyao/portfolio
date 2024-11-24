@@ -565,6 +565,40 @@ export const PersonalLink = {
     '/UX и UI инструменты для  веб-дизайна и мобильного дизайна.mp4',
   preview: '/ui.png',
 };
+export const UemkResponse = {
+  titleKurs: '',
+  descriptionKurs: '',
+  lectures: [
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+  ],
+};
 
 export default {
   mainResponseRu: mainResponseRu,
@@ -576,4 +610,5 @@ export default {
   LibraryResponse: LibraryResponse,
   LinkResponse: LinkResponse,
   PersonalLink: PersonalLink,
+  UemkResponse: UemkResponse,
 };

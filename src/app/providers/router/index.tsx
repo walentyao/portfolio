@@ -85,6 +85,15 @@ export const router = createBrowserRouter([
               return { Component: Ind };
             },
           },
+          {
+            path: AppRoutes.UEMK,
+            lazy: async () => {
+              const { Uemk } = await import(
+                '@pages/Uemk/Uemk'
+              );
+              return { Component: Uemk };
+            },
+          },
         ],
       },
     ],

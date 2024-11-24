@@ -9,4 +9,5 @@ export enum AppRoutes {
   NOT_FOUND = 'not_found',
   REPORT_SEARCH = ' report_search',
   IND_SECTION = 'ind_section',
+  UEMK = 'uemk',
 }

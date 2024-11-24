@@ -553,6 +553,41 @@ export const PersonalLink = {
   preview: '/images.jpg',
 };
 
+export const UemkResponse = {
+  titleKurs: 'Разработка на JavaScript',
+  descriptionKurs: '',
+  lectures: [
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+  ],
+};
+
 export default {
   mainResponseRu: mainResponseRu,
   mainResponseEng: mainResponseEng,
@@ -563,4 +598,5 @@ export default {
   LibraryResponse: LibraryResponse,
   LinkResponse: LinkResponse,
   PersonalLink: PersonalLink,
+  UemkResponse: UemkResponse,
 };

@@ -1,0 +1,30 @@
+.uemk {
+  &-title {
+    font-size: 34px;
+    color: white;
+    text-align: center;
+
+    &-kurs {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 28px;
+      color: white;
+      text-align: center;
+    }
+    &-block-kurs {
+      text-align: center;
+      color: white;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+  &-desciption {
+    margin-top: 8px;
+  }
+  &-lecture {
+    &-title {
+      text-align: left;
+      color: black;
+    }
+  }
+}
