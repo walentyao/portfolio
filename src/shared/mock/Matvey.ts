@@ -575,36 +575,36 @@ export const UemkResponse = {
     {
       title:
         'Введение в язык Java и основы объектно-ориентированного программирования',
-      pathDocument: '/umkMatvey/1.docx',
+      pathDocument: '/uemkMatvey/1.docx',
     },
     {
       title:
         'Коллекции в Java: структура данных и их применение',
-      pathDocument: '',
+      pathDocument: '/uemkMatvey/2.docx',
     },
     {
       title: 'Потоки ввода-вывода (I/O) и работа с файлами',
-      pathDocument: '',
+      pathDocument: '/uemkMatvey/3.docx',
     },
     {
       title:
         'Многопоточность и параллельное программирование в Java',
-      pathDocument: '',
+      pathDocument: '/uemkMatvey/4.docx',
     },
     {
       title:
         'Работа с базами данных: JDBC и основы взаимодействия с SQL',
-      pathDocument: '',
+      pathDocument: '/uemkMatvey/5.docx',
     },
     {
       title:
         'Разработка REST API и основы веб-программирования',
-      pathDocument: '',
+      pathDocument: '/uemkMatvey/6.docx',
     },
     {
       title:
         'Оптимизация производительности и управление памятью в Java',
-      pathDocument: '',
+      pathDocument: '/uemkMatvey/7.docx',
     },
   ],
 };

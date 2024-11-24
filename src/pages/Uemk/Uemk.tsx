@@ -3,6 +3,7 @@ import cls from './Uemk.module.scss';
 import { useContext } from 'react';
 import { ContextUsername } from '@shared/context/username.context';
 import { Card } from 'primereact/card';
+import { DocumentTextIcon } from '@heroicons/react/16/solid';
 
 export const Uemk = () => {
   const username = useContext(ContextUsername);
@@ -24,16 +25,23 @@ export const Uemk = () => {
       <h2 className={cls.uemkTitleBlockKurs}>
         Лекции и материалы
         {UemkResponse.lectures.map((lecture, index) => (
-          <Card>
-            <h4 className={cls.uemkLectureTitle}>
-              Лекция {index + 1} {lecture.title}
-            </h4>
-            <a
-              href="files/lecture.docx"
-              download={`Лекция${index + 1}.docx`}
-            >
-              Скачать лекцию (Word)
-            </a>
+          <Card className={cls.uemkLectureWrapper}>
+            <div className={cls.uemkLecture}>
+              <h4 className={cls.uemkLectureTitle}>
+                Лекция {index + 1} {lecture.title}
+              </h4>
+              <div>
+                <DocumentTextIcon
+                  className={cls.uemkLectureIcon}
+                />
+                <a
+                  href={lecture.pathDocument}
+                  download={`Лекция${index + 1}.docx`}
+                >
+                  Скачать лекцию (Word)
+                </a>
+              </div>
+            </div>
           </Card>
         ))}
       </h2>
