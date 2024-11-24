@@ -1,4 +1,8 @@
-import { Outlet, useParams } from 'react-router-dom';
+import {
+  Navigate,
+  Outlet,
+  useParams,
+} from 'react-router-dom';
 import cls from './AppLayout.module.scss';
 import { Sidebar } from '@widgets/Sidebar';
 import { ScrollPanel } from 'primereact/scrollpanel';
@@ -10,12 +14,17 @@ import { UsernameType } from '@shared/types';
 export const AppLayout = () => {
   const { lg, username } = useParams();
 
+  if (!['ru', 'eng'].includes(lg as string))
+    return <Navigate to={'/ru'} />;
+
   if (
+    lg &&
     !['matvey', 'valentin', 'violetta', 'marko'].includes(
       username as string,
     )
   )
-    return null;
+    return <Navigate to={`/${lg}/valentin`} />;
+
   return (
     <ContextUsername.Provider
       value={username as UsernameType}
@@ -28,7 +37,6 @@ export const AppLayout = () => {
             <ButtonLanguage />
             <Sidebar
               CurrentLang={(lg as lang) || lang.RU}
-              username={username}
             />
           </div>
           <div className={cls.appPage}>
