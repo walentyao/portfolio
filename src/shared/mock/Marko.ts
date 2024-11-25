@@ -289,12 +289,14 @@ export const reportSearchResponse = [
   {
     id: 2,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '30000',
     link: 'https://ya.ru/search/?text=%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F++%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2+%D0%BD%D0%B0+%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5%2C+%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8+%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%D1%8E%D1%89%D0%B8%D0%BC%D1%81%D1%8F+%D0%BF%D0%BE+%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8+%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D0%BE%D0%BC&lr=35&within=0&lang=ru',
   },
   {
     id: 3,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '9210',
     link: 'https://www.bing.com/search?q=%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5%2C%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%20%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%D1%8E%D1%89%D0%B8%D0%BC%D1%81%D1%8F%20%D0%BF%D0%BE%20%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D0%BE%D0%BC',
   },
@@ -310,12 +312,14 @@ export const reportSearchResponse = [
   {
     id: 5,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '4100',
     link: 'https://ya.ru/search/?text=%D0%B3%D0%B0%D1%80%D0%BA%D1%83%D1%88%D0%B0+%D0%BE%D0%BB%D0%B5%D0%B3+%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87&lr=35&within=0&lang=ru',
   },
   {
     id: 6,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '113000',
     link: 'https://www.bing.com/search?q=%D0%93%D0%B0%D1%80%D0%BA%D1%83%D1%88%D0%B0+%D0%9E%D0%BB%D0%B5%D0%B3+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87&qs=n&form=QBRE&sp=-1&lq=0&pq=%D0%B3%D0%B0%D1%80%D0%BA%D1%83%D1%88%D0%B0+%D0%BE%D0%BB%D0%B5%D0%B3+%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87&sc=0-23&sk=&cvid=CCD6BF62E1AD410FA18BB90546DB5DD0&ghsh=0&ghacc=0&ghpl=',
   },
@@ -331,12 +335,14 @@ export const reportSearchResponse = [
   {
     id: 8,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '11000',
     link: 'https://ya.ru/search/?text=%D0%A0%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F++%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2+%D0%BD%D0%B0+%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5&lr=35&within=0&lang=ru',
   },
   {
     id: 9,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '1430000',
     link: 'https://www.bing.com/search?q=%D0%A0%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F++%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2+%D0%BD%D0%B0+%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5&form=QBLH&sp=-1&lq=0&pq=%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F++%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2+%D0%BD%D0%B0+%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5&sc=10-32&qs=n&sk=&cvid=9F24E9F9C1FE49CA83739F6294D0109F&ghsh=0&ghacc=0&ghpl=',
   },
@@ -352,12 +358,14 @@ export const reportSearchResponse = [
   {
     id: 11,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '54000',
     link: 'https://ya.ru/search/?text=%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC+%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F+%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2+%D0%BD%D0%B0+%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5&lr=35&within=0&lang=ru',
   },
   {
     id: 12,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '553000',
     link: 'https://www.bing.com/search?q=%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC+%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F+%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2+%D0%BD%D0%B0+%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5&qs=n&form=QBRE&sp=-1&lq=0&pq=%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC+%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F+%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2+%D0%BD%D0%B0+%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%B5&sc=10-40&sk=&cvid=7881B168F763461CBB6EB5F7A2DD560E&ghsh=0&ghacc=0&ghpl=',
   },
@@ -373,12 +381,14 @@ export const reportSearchResponse = [
   {
     id: 14,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '10000',
     link: 'https://ya.ru/search/?text=%D0%92%D1%8B%D0%B1%D0%BE%D1%80+%D0%BD%D0%B0%D0%B8%D0%BB%D1%83%D1%87%D1%88%D0%B5%D0%B3%D0%BE+%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D0%B0&lr=35&within=0&lang=ru',
   },
   {
     id: 15,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '113000',
     link: 'https://www.bing.com/search?q=%D0%92%D1%8B%D0%B1%D0%BE%D1%80+%D0%BD%D0%B0%D0%B8%D0%BB%D1%83%D1%87%D1%88%D0%B5%D0%B3%D0%BE+%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D0%B0&qs=n&form=QBRE&sp=-1&lq=0&pq=%D0%B2%D1%8B%D0%B1%D0%BE%D1%80+%D0%BD%D0%B0%D0%B8%D0%BB%D1%83%D1%87%D1%88%D0%B5%D0%B3%D0%BE+%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D0%B0&sc=0-26&sk=&cvid=70A8871FA85444C387C393C72623B562&ghsh=0&ghacc=0&ghpl=',
   },
@@ -394,12 +404,14 @@ export const reportSearchResponse = [
   },
   {
     id: 17,
+    language: 'eng',
     search: 'Яндекс',
     countDocuments: '8000000',
     link: 'https://ya.ru/search/?text=Development+of+a+system+for+distributing+goods+in+a+warehouse%2C+automatically+determined+by+efficiency+by+an+algorithm&lr=35&within=0&lang=en',
   },
   {
     id: 18,
+    language: 'eng',
     search: 'Bing',
     link: 'https://www.bing.com/search?q=+Development+of+a+system+for+distributing+goods+in+a+warehouse%2C+automatically+determined+by+efficiency+by+an+algorithm&qs=n&form=QBRE&sp=-1&lq=0&pq=&sc=0-0&sk=&cvid=81C5D415B90B493780D1499B72672FCD&ghsh=0&ghacc=0&ghpl=',
     countDocuments: '1850000',
@@ -416,12 +428,14 @@ export const reportSearchResponse = [
   {
     id: 20,
     search: 'Яндекс',
+    language: 'eng',
     countDocuments: '100',
     link: 'https://ya.ru/search/?text=Garkusha+Oleg+Vasilievich&lr=35&within=0&lang=en',
   },
   {
     id: 21,
     search: 'Bing',
+    language: 'eng',
     countDocuments: '-',
     link: 'https://www.bing.com/search?q=Garkusha+Oleg+Vasilievich&qs=n&form=QBRE&sp=-1&lq=0&pq=garkusha+oleg+vasilievich&sc=10-25&sk=&cvid=07D42394A8BB44CD942CA50AD219BBFC&ghsh=0&ghacc=0&ghpl=',
   },
@@ -437,12 +451,14 @@ export const reportSearchResponse = [
   {
     id: 23,
     search: 'Яндекс',
+    language: 'eng',
     countDocuments: '7800000',
     link: 'https://ya.ru/search/?text=distribution+of+goods+in+the+warehouse&lr=35&within=0&lang=en',
   },
   {
     id: 24,
     search: 'Bing',
+    language: 'eng',
     countDocuments: '1730000',
     link: 'https://www.bing.com/search?q=distribution+of+goods+in+the+warehouse&qs=n&form=QBRE&sp=-1&lq=0&pq=distribution+of+goods+in+the+warehouse&sc=17-38&sk=&cvid=071A96D633CD4B1880477AB9BC8F6A46&ghsh=0&ghacc=0&ghpl=',
   },
@@ -459,12 +475,14 @@ export const reportSearchResponse = [
   {
     id: 26,
     search: 'Яндекс',
+    language: 'eng',
     countDocuments: '123000',
     link: 'https://ya.ru/search/?text=algorithm+for+distribution+of+goods+in+the+warehouse&lr=35&within=0&lang=en',
   },
   {
     id: 27,
     search: 'Bing',
+    language: 'eng',
     countDocuments: '62000',
     link: 'https://www.bing.com/search?q=algorithm+for+distribution+of+goods+in+the+warehouse&qs=n&form=QBRE&sp=-1&lq=0&pq=algorithm+for+distribution+of+goods+in+the+warehouse&sc=8-52&sk=&cvid=AFB94E33A78346BBB878329A6ED09E4F&ghsh=0&ghacc=0&ghpl=',
   },
@@ -480,12 +498,14 @@ export const reportSearchResponse = [
   {
     id: 29,
     search: 'Яндекс',
+    language: 'eng',
     countDocuments: '5000000',
     link: 'https://ya.ru/search/?text=Choosing+the+best+algorithm&lr=35&within=0&lang=en',
   },
   {
     id: 30,
     search: 'Bing',
+    language: 'eng',
     countDocuments: '14000000',
     link: 'https://www.bing.com/search?q=Choosing+the+best+algorithm&qs=n&form=QBRE&sp=-1&lq=0&pq=choosing+the+best+algorithm&sc=10-27&sk=&cvid=A8FA078A7F794C7B81A4734490D99A57&ghsh=0&ghacc=0&ghpl=',
   },

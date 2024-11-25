@@ -304,12 +304,14 @@ export const reportSearchResponse = [
   {
     id: 2,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '2000',
     link: 'https://yandex.ru/search/?text=%D0%9A%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C+%D0%B2+%D0%B2%D0%B5%D0%B1+%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%D1%85+%D0%B8+%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B+%D0%B8%D1%85+%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F&clid=2411726&lr=35',
   },
   {
     id: 3,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '8830',
     link: 'https://www.bing.com/search?q=Кибербезопасность+в+веб+приложеняих+и+методы+их+устранения&search=&form=QBLH&rdr=1&rdrig=BB26C99F041749708E66D2BB3E3DECD7',
   },
@@ -325,12 +327,14 @@ export const reportSearchResponse = [
   {
     id: 5,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '2010',
     link: 'https://yandex.ru/search/?text=%D0%9F%D0%9E%D0%B4%D0%BA%D0%BE%D0%BB%D0%B7%D0%B8%D0%BD+%D0%B2%D0%B0%D0%B4%D0%B8%D0%BC+%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%B8%D1%87&lr=35&clid=2411726',
   },
   {
     id: 6,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '93800',
     link: 'https://www.bing.com/search?go=Поиск&q=подколзин+вадим+владиславович&qs=n&form=QBRE&sp=-1&lq=0&pq=подколзин+вадим+владиславович&sc=0-29&sk=&cvid=B5A274DF38BA46C08177D9A62E5B021F&ghsh=0&ghacc=0&ghpl=',
   },
@@ -346,12 +350,14 @@ export const reportSearchResponse = [
   {
     id: 8,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '10000',
     link: 'https://yandex.ru/search/?text=%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C&lr=35&clid=2411726',
   },
   {
     id: 9,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '95800',
     link: 'https://www.bing.com/search?q=кибербезопасность&qs=LT&pq=кибербезопа&sc=10-11&cvid=89499D9A0B314EA49F4BFB2DCFA3D434&FORM=QBRE&sp=1&lq=0',
   },
@@ -367,12 +373,14 @@ export const reportSearchResponse = [
   {
     id: 11,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '52000',
     link: 'https://yandex.ru/search/?text=%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F+%D1%83%D1%8F%D0%B7%D0%B2%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B5%D0%B9+%D0%B2+%D0%B2%D0%B5%D0%B1+%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8&lr=35&clid=2411726',
   },
   {
     id: 12,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '24700',
     link: 'https://www.bing.com/search?go=Поиск&q=классификация+уязвимостей+в+веб+приложении&qs=n&form=QBRE&sp=-1&lq=0&pq=классификация+уязвимостей+в+веб+приложении&sc=4-42&sk=&cvid=72358307E0E94986921243524921449B&ghsh=0&ghacc=0&ghpl=',
   },
@@ -389,12 +397,14 @@ export const reportSearchResponse = [
   {
     id: 14,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '1200',
     link: 'https://yandex.ru/search/?text=%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D1%8B+%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F+%D1%83%D1%8F%D0%B7%D0%B2%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B5%D0%B9+%D0%B2+%D0%B2%D0%B5%D0%B1+%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8&lr=35&clid=2411726',
   },
   {
     id: 15,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '21000',
     link: 'https://www.bing.com/search?go=Поиск&q=Методы+устранения+уязвимостей+в+веб+приложении&qs=n&form=QBRE&sp=-1&lq=0&pq=методы+устранения+уязвимостей+в+веб+приложении&sc=3-46&sk=&cvid=658CEC8F0BAF4D0980F06B9839F28BA2&ghsh=0&ghacc=0&ghpl=',
   },
@@ -410,6 +420,7 @@ export const reportSearchResponse = [
   },
   {
     id: 17,
+    language: 'eng',
     search: 'Яндекс',
     countDocuments: '100000',
     link: 'https://yandex.ru/search/?text=Cybersecurity+in+web+applications+and+methods+of+their+elimination&lr=35&clid=2411726',
@@ -417,6 +428,7 @@ export const reportSearchResponse = [
   {
     id: 18,
     search: 'Bing',
+    language: 'eng',
     countDocuments: '125000',
     link: 'https://www.bing.com/search?go=Поиск&q=Cybersecurity+in+web+applications+and+methods+of+their+elimination&qs=n&form=QBRE&sp=-1&lq=0&pq=&sc=0-0&sk=&cvid=408BE5CA49884EA495CF8AD73AED14A6&ghsh=0&ghacc=0&ghpl=',
   },
@@ -432,12 +444,14 @@ export const reportSearchResponse = [
   {
     id: 20,
     search: 'Яндекс',
+    language: 'eng',
     countDocuments: '15000',
     link: 'https://yandex.ru/search/?text=Podkolzin+Vadim+Vladislavovich&lr=35&clid=2411726',
   },
   {
     id: 21,
     search: 'Bing',
+    language: 'eng',
     countDocuments: '66300',
     link: 'https://www.bing.com/search?go=Поиск&q=Podkolzin+Vadim+Vladislavovich&qs=n&form=QBRE&sp=-1&lq=0&pq=cybersecurity+in+web+applications+and+methods+of+their+elimination&sc=8-66&sk=&cvid=314C01C62F084B2FB78DB98B284CFFAA&ghsh=0&ghacc=0&ghpl=',
   },
@@ -453,12 +467,14 @@ export const reportSearchResponse = [
   {
     id: 23,
     search: 'Яндекс',
+    language: 'eng',
     countDocuments: '400000',
     link: 'https://yandex.ru/search/?text=Cybersecurity&lr=35&clid=2411726',
   },
   {
     id: 24,
     search: 'Bing',
+    language: 'eng',
     countDocuments: '2821000',
     link: 'https://www.bing.com/search?go=Поиск&q=Cybersecurity&qs=n&form=QBRE&sp=-1&lq=0&pq=cybersecurity&sc=10-13&sk=&cvid=47FCBA0FE17D4239B122894082C4FD1F&ghsh=0&ghacc=0&ghpl=',
   },
@@ -474,6 +490,7 @@ export const reportSearchResponse = [
   },
   {
     id: 26,
+    language: 'eng',
     search: 'Яндекс',
     countDocuments: '780000',
     link: 'https://yandex.ru/search/?text=Classification+of+vulnerabilities+in+web+application&lr=35&clid=2411726',
@@ -481,6 +498,7 @@ export const reportSearchResponse = [
   {
     id: 27,
     search: 'Bing',
+    language: 'eng',
     link: 'https://www.bing.com/search?go=Поиск&q=Classification+of+vulnerabilities+in+web+application&qs=n&form=QBRE&sp=-1&lq=0&pq=cybersecurity&sc=10-13&sk=&cvid=5A7BEDD269ED42569ECC6FC23C490715&ghsh=0&ghacc=0&ghpl=',
     countDocuments: '817000',
   },
@@ -497,12 +515,14 @@ export const reportSearchResponse = [
   {
     id: 29,
     search: 'Яндекс',
+    language: 'eng',
     countDocuments: '340600',
     link: 'https://yandex.ru/search/?text=Methods+for+eliminating+vulnerabilities+in+a+web+application&lr=35&clid=2411726',
   },
   {
     id: 30,
     search: 'Bing',
+    language: 'eng',
     countDocuments: '73600',
     link: 'https://www.bing.com/search?go=Поиск&q=Methods+for+eliminating+vulnerabilities+in+a+web+application&qs=n&form=QBRE&sp=-1&lq=0&pq=&sc=0-0&sk=&cvid=55F9838FDCDF49D5859FE720D9007000&ghsh=0&ghacc=0&ghpl=',
   },
