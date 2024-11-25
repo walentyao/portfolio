@@ -624,19 +624,22 @@ export const UemkResponse = {
   ],
   dopMatireals: [
     {
-      title: '',
-      description: '',
-      link: '',
+      title: 'Официальная документация TypeScript',
+      description:
+        'Подробное руководство по TypeScript, включая объяснение синтаксиса, использование типизации, интерфейсов, классов и других возможностей.',
+      link: 'https://www.typescriptlang.org/docs/',
     },
     {
-      title: '',
-      description: '',
-      link: '',
+      title: 'TypeScript Handbook (Руководство)',
+      description:
+        'Бесплатное руководство от разработчиков TypeScript с подробными примерами и объяснением ключевых особенностей языка.',
+      link: 'https://www.typescriptlang.org/docs/handbook/intro.html',
     },
     {
-      title: '',
-      description: '',
-      link: '',
+      title: 'Курс на YouTube: TypeScript для начинающих',
+      description:
+        'Видеокурс с пошаговым введением в TypeScript, охватывающий темы от основ синтаксиса до работы с декораторами и модулями.',
+      link: 'https://www.youtube.com/results?search_query=TypeScript+для+начинающих',
     },
   ],
   authour: 'Ковачевич Марко',

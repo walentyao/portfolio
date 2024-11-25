@@ -110,7 +110,9 @@ export const Uemk = () => {
               {material.title}
             </h4>
             <p> {material.description}</p>
-            <a href={material.link}>Ссылка на материалы</a>
+            <a href={material.link} target="_blank">
+              Ссылка на материалы
+            </a>
           </div>
         </Card>
       ))}

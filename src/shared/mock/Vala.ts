@@ -629,19 +629,23 @@ export const UemkResponse = {
   ],
   dopMatireals: [
     {
-      title: '',
-      description: '',
-      link: '',
+      title: 'MDN Web Docs: JavaScript',
+      description:
+        'Официальная документация по JavaScript, содержащая основы языка, примеры кода и руководство по передовым темам.',
+      link: 'https://developer.mozilla.org/ru/docs/Web/JavaScript',
     },
     {
-      title: '',
-      description: '',
-      link: '',
+      title: 'Eloquent JavaScript',
+      description:
+        'Бесплатная онлайн-книга, подробно освещающая основы и более сложные концепции JavaScript, с примерами и задачами.',
+      link: 'https://eloquentjavascript.net/',
     },
     {
-      title: '',
-      description: '',
-      link: '',
+      title:
+        'Asynchronous JavaScript: From Callbacks to Promises to Async/Await',
+      description:
+        'Статья, объясняющая эволюцию асинхронного программирования в JavaScript с примерами и практическими задачами.',
+      link: 'https://javascript.info/async',
     },
   ],
   authour: 'Матюха Валентин',
