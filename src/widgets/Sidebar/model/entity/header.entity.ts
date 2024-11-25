@@ -33,7 +33,8 @@ export const headerItems: HeaderItem[] = [
   {
     link: AppRoutes.REPORT_SEARCH,
     text: 'Отчет о поиске',
-    languages: [lang.RU],
+    textEng: 'Search report',
+    languages: [lang.RU, lang.ENG],
   },
   {
     link: AppRoutes.IND_SECTION,

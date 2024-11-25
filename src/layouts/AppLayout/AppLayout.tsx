@@ -3,16 +3,17 @@ import {
   Outlet,
   useParams,
 } from 'react-router-dom';
-import cls from './AppLayout.module.scss';
 import { Sidebar } from '@widgets/Sidebar';
-import { ScrollPanel } from 'primereact/scrollpanel';
 import { ButtonLanguage } from '@features/ButtonLanguage/ButtonLanguage';
 import { lang } from '@shared/enums';
 import { ContextUsername } from '@shared/context/username.context';
 import { UsernameType } from '@shared/types';
+import { useTitle } from '@shared/hooks/useTitle';
+import cls from './AppLayout.module.scss';
 
 export const AppLayout = () => {
   const { lg, username } = useParams();
+  useTitle(username as string);
 
   if (!['ru', 'eng'].includes(lg as string))
     return <Navigate to={'/ru'} />;
@@ -29,24 +30,18 @@ export const AppLayout = () => {
     <ContextUsername.Provider
       value={username as UsernameType}
     >
-      <ScrollPanel
-        style={{ width: '100%', height: '100vh' }}
-      >
-        <div className={cls.app}>
-          <div className={cls.appHeader}>
-            <ButtonLanguage />
-            <Sidebar
-              CurrentLang={(lg as lang) || lang.RU}
-            />
-          </div>
-          <div className={cls.appPage}>
-            <Outlet />
-          </div>
+      <div className={cls.app}>
+        <div className={cls.appHeader}>
+          <ButtonLanguage />
+          <Sidebar CurrentLang={(lg as lang) || lang.RU} />
         </div>
-        <footer className={cls.footer}>
-          Design by Walentyao
-        </footer>
-      </ScrollPanel>
+        <div className={cls.appPage}>
+          <Outlet />
+        </div>
+      </div>
+      <footer className={cls.footer}>
+        Design by Walentyao
+      </footer>
     </ContextUsername.Provider>
   );
 };

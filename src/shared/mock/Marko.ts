@@ -279,7 +279,7 @@ export const reportSearchResponse = [
   {
     id: 1,
     numberPhrase: 1,
-    language: 'рус',
+    language: 'ru',
     phrase:
       'Разработка системы распределения  товаров на складе, автоматически определяющимся по эффективности алгоритмом',
     search: 'Google',
@@ -301,7 +301,7 @@ export const reportSearchResponse = [
   {
     id: 4,
     numberPhrase: 2,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Гаркуша Олег Васильевич',
     search: 'Google',
     countDocuments: '31400',
@@ -322,7 +322,7 @@ export const reportSearchResponse = [
   {
     id: 7,
     numberPhrase: 3,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Распределения  товаров на складе',
     search: 'Google',
     countDocuments: '542000',
@@ -343,7 +343,7 @@ export const reportSearchResponse = [
   {
     id: 10,
     numberPhrase: 4,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Алгоритм распределения товаров на складе',
     search: 'Google',
     countDocuments: '13700000',
@@ -364,7 +364,7 @@ export const reportSearchResponse = [
   {
     id: 13,
     numberPhrase: 5,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Выбор наилучшего алгоритма',
     search: 'Google',
     countDocuments: '68400',

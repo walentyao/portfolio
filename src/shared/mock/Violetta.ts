@@ -263,7 +263,7 @@ export const reportSearchResponse = [
   {
     id: 1,
     numberPhrase: 1,
-    language: 'рус',
+    language: 'ru',
     phrase:
       'Онтологический подход к построению цифровой тени ИТ-сектора регионального рынка труда',
     search: 'Google',
@@ -291,7 +291,7 @@ export const reportSearchResponse = [
   {
     id: 5,
     numberPhrase: 2,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Полетайкин Алексей Николаевич. Кубгу',
     search: 'Google',
     countDocuments: '12 тыс.',
@@ -318,7 +318,7 @@ export const reportSearchResponse = [
   {
     id: 9,
     numberPhrase: 3,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Онтологический подход',
     search: 'Google',
     countDocuments: '132 тыс.',
@@ -345,7 +345,7 @@ export const reportSearchResponse = [
   {
     id: 13,
     numberPhrase: 4,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Построению цифровой тени ИТ-сектора',
     search: 'Google',
     countDocuments: '183 тыс.',

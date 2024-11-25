@@ -277,7 +277,7 @@ export const reportSearchResponse = [
   {
     id: 1,
     numberPhrase: 1,
-    language: 'рус',
+    language: 'ru',
     phrase:
       'Разработка системы для отслеживания и анализа ошибок и метрик производительности веб-приложений',
     search: 'Google',
@@ -299,7 +299,7 @@ export const reportSearchResponse = [
   {
     id: 4,
     numberPhrase: 2,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Гаркуша Олег Васильевич',
     search: 'Google',
     countDocuments: '25300',
@@ -320,7 +320,7 @@ export const reportSearchResponse = [
   {
     id: 7,
     numberPhrase: 3,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Методы отслеживания ошибок веб-приложений',
     search: 'Google',
     countDocuments: '68100000',
@@ -341,7 +341,7 @@ export const reportSearchResponse = [
   {
     id: 10,
     numberPhrase: 4,
-    language: 'рус',
+    language: 'ru',
     phrase: ' Отслеживание метрик веб-приложений',
     search: 'Google',
     countDocuments: '20900000',
@@ -362,7 +362,7 @@ export const reportSearchResponse = [
   {
     id: 13,
     numberPhrase: 5,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Анализ ошибок веб-приложения ',
     search: 'Google',
     countDocuments: '77400000',
@@ -548,7 +548,7 @@ export const LinkResponse = {
 };
 
 export const PersonalLink = {
-  title: 'Люблю Яблоки',
+  title: 'Люблю Фонк и Дрифт',
   video: '/Реклама Apple Macintosh 1984.mp4',
   preview: '/images.jpg',
 };

@@ -294,8 +294,9 @@ export const reportSearchResponse = [
   {
     id: 1,
     numberPhrase: 1,
-    language: 'рус',
-    phrase: '',
+    language: 'ru',
+    phrase:
+      'Кибербезопасность в веб приложениях и методы их устранения',
     search: 'Google',
     countDocuments: '115200000',
     link: 'https://www.google.com/search?q=%D0%9A%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C+%D0%B2+%D0%B2%D0%B5%D0%B1+%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D1%8F%D0%B8%D1%85+%D0%B8+%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B+%D0%B8%D1%85+%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F&client=safari&sca_esv=62d1c2127d43278b&sca_upv=1&rls=en&biw=1512&bih=784&ei=UkfwZqGaE6aKkdUP7-nwmQ8&ved=0ahUKEwihi5_i_daIAxUmRaQEHe80PPMQ4dUDCA8&oq=%D0%9A%D0%B8%D0%B1%D0%B5%D1%80%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C+%D0%B2+%D0%B2%D0%B5%D0%B1+%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D1%8F%D0%B8%D1%85+%D0%B8+%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B+%D0%B8%D1%85+%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F&gs_lp=Egxnd3Mtd2l6LXNlcnAibdCa0LjQsdC10YDQsdC10LfQvtC_0LDRgdC90L7RgdGC0Ywg0LIg0LLQtdCxINC_0YDQuNC70L7QttC10L3Rj9C40YUg0Lgg0LzQtdGC0L7QtNGLINC40YUg0YPRgdGC0YDQsNC90LXQvdC40Y9IAFAAWABwAHgBkAEAmAEAoAEAqgEAuAEMyAEAmAIAoAIAmAMA4gMFEgExIECSBwCgBwA&sclient=gws-wiz-serp',
@@ -315,7 +316,7 @@ export const reportSearchResponse = [
   {
     id: 4,
     numberPhrase: 2,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Подколзин Вадим Владиславович',
     search: 'Google',
     countDocuments: '5830',
@@ -336,7 +337,7 @@ export const reportSearchResponse = [
   {
     id: 7,
     numberPhrase: 3,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Кибербезопасность',
     search: 'Google',
     countDocuments: '3680000',
@@ -357,7 +358,7 @@ export const reportSearchResponse = [
   {
     id: 10,
     numberPhrase: 4,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Классификация уявимостей в веб приложении',
     search: 'Google',
     countDocuments: '235000',
@@ -378,7 +379,7 @@ export const reportSearchResponse = [
   {
     id: 13,
     numberPhrase: 5,
-    language: 'рус',
+    language: 'ru',
     phrase:
       'Методы устранения уязвимостей в веб приложении',
     search: 'Google',
