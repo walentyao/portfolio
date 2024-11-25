@@ -77,7 +77,7 @@ export const Uemk = () => {
                 className={cls.sendDok}
                 src="https://forms.yandex.ru/u/6742ffd85d2a06172cb0c0a2/?iframe=1"
                 name="ya-form-6742ffd85d2a06172cb0c0a2"
-                frameborder="0"
+                frameBorder="0"
               ></iframe>
             </>
           </div>
