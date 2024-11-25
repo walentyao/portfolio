@@ -28,7 +28,10 @@ export const Uemk = () => {
       <h2 className={cls.uemkTitleBlockKurs}> </h2>
       Лекции и материалы
       {UemkResponse.lectures.map((lecture, index) => (
-        <Card className={cls.uemkLectureWrapper}>
+        <Card
+          key={index}
+          className={cls.uemkLectureWrapper}
+        >
           <div className={cls.uemkLecture}>
             <h4 className={cls.uemkLectureTitle}>
               Лекция {index + 1} {lecture.title}
@@ -51,7 +54,10 @@ export const Uemk = () => {
         Практические задания
       </h2>
       {UemkResponse.tasks.map((task, index) => (
-        <Card className={cls.uemkLectureWrapper}>
+        <Card
+          key={index}
+          className={cls.uemkLectureWrapper}
+        >
           <div className={cls.uemkLecture}>
             <h4 className={cls.uemkLectureTitle}>
               Практическое задание {index + 1}
@@ -103,8 +109,11 @@ export const Uemk = () => {
       <h2 className={cls.uemkTitleBlockKurs}>
         Дополнительные материалы
       </h2>
-      {UemkResponse.dopMatireals.map(material => (
-        <Card className={cls.uemkLectureWrapper}>
+      {UemkResponse.dopMatireals.map((material, index) => (
+        <Card
+          key={index}
+          className={cls.uemkLectureWrapper}
+        >
           <div className={cls.uemkLecture}>
             <h4 className={cls.uemkLectureTitle}>
               {material.title}

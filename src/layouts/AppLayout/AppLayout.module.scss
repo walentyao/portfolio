@@ -6,6 +6,18 @@
   column-gap: 20px;
   justify-content: center;
   overflow-y: auto;
+  scrollbar-gutter: stable;
+
+  &::-webkit-scrollbar {
+    width: 8px; /* ширина scrollbar */
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--color-background-stroke);
+    border-radius: 6px;
+  }
 }
 
 .app-page {
