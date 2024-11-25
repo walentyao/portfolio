@@ -593,6 +593,38 @@ export const UemkResponse = {
       pathDocument: '/uemkValentin/7.docx',
     },
   ],
+  tasks: [
+    {
+      title: 'Динамическое управление DOM',
+      pathDocument: '/uemkValentin/tasks/1.docx',
+    },
+    {
+      title: 'Работа с API и управление данными',
+      pathDocument: '/uemkValentin/tasks/2.docx',
+    },
+    {
+      title: 'Оптимизация производительности интерфейса',
+      pathDocument: '/uemkValentin/tasks/3.docx',
+    },
+  ],
+  dopMatireals: [
+    {
+      title: '',
+      description: '',
+      link: '',
+    },
+    {
+      title: '',
+      description: '',
+      link: '',
+    },
+    {
+      title: '',
+      description: '',
+      link: '',
+    },
+  ],
+  authour: 'Матюха Валентин',
 };
 
 export default {

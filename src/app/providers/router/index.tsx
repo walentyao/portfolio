@@ -105,6 +105,15 @@ export const router = createBrowserRouter([
                   return { Component: Uemk };
                 },
               },
+              {
+                path: AppRoutes.TEST,
+                lazy: async () => {
+                  const { Test } = await import(
+                    '@pages/Test/Test'
+                  );
+                  return { Component: Test };
+                },
+              },
             ],
           },
         ],

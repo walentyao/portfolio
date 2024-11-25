@@ -607,6 +607,42 @@ export const UemkResponse = {
       pathDocument: '/uemkMatvey/7.docx',
     },
   ],
+  tasks: [
+    {
+      title: 'Создание REST API для управления ресурсами',
+      pathDocument: '/uemkMatvey/tasks/1.docx',
+    },
+    {
+      title: 'Создание REST API для управления ресурсами',
+      pathDocument: '/uemkMatvey/tasks/2.docx',
+    },
+    {
+      title: 'Создание REST API для управления ресурсами',
+      pathDocument: '/uemkMatvey/tasks/3.docx',
+    },
+  ],
+  dopMatireals: [
+    {
+      title:
+        'Coursera: Java Programming and Software Engineering Fundamentals',
+      description:
+        'Специализация от Duke University. Курс охватывает основы Java, работу с данными, создание приложений и взаимодействие с базами данных.',
+      link: 'https://www.coursera.org/specializations/java-programming',
+    },
+    {
+      title: 'JetBrains Academy: Java Developer',
+      description:
+        'Практико-ориентированный курс от JetBrains. Учащиеся реализуют проекты и учатся применять Java для веб-разработки, работы с базами данных и REST API.',
+      link: 'https://www.jetbrains.com/academy/',
+    },
+    {
+      title: 'Spring Framework',
+      description:
+        'отличное руководство для изучения разработки REST API и корпоративных приложений.',
+      link: 'https://spring.io/projects/spring-framework',
+    },
+  ],
+  authour: 'Акулов Матвей',
 };
 
 export default {

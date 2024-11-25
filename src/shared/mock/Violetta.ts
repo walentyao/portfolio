@@ -598,6 +598,38 @@ export const UemkResponse = {
       pathDocument: '',
     },
   ],
+  tasks: [
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+    {
+      title: '',
+      pathDocument: '',
+    },
+  ],
+  dopMatireals: [
+    {
+      title: '',
+      description: '',
+      link: '',
+    },
+    {
+      title: '',
+      description: '',
+      link: '',
+    },
+    {
+      title: '',
+      description: '',
+      link: '',
+    },
+  ],
+  authour: 'Коровина Виолетта',
 };
 
 export default {

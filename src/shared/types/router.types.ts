@@ -10,4 +10,5 @@ export enum AppRoutes {
   REPORT_SEARCH = ' report_search',
   IND_SECTION = 'ind_section',
   UEMK = 'uemk',
+  TEST = 'test',
 }

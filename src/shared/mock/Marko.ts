@@ -588,6 +588,38 @@ export const UemkResponse = {
       pathDocument: '/uemkMarko/7.docx',
     },
   ],
+  tasks: [
+    {
+      title: 'Реализация интерфейсов и классов',
+      pathDocument: '/uemkMarko/tasks/1.docx',
+    },
+    {
+      title: 'Работа с Generics и типизацией коллекций',
+      pathDocument: '/uemkMarko/tasks/2.docx',
+    },
+    {
+      title: 'Создание и использование декораторов',
+      pathDocument: '/uemkMarko/tasks/3.docx',
+    },
+  ],
+  dopMatireals: [
+    {
+      title: '',
+      description: '',
+      link: '',
+    },
+    {
+      title: '',
+      description: '',
+      link: '',
+    },
+    {
+      title: '',
+      description: '',
+      link: '',
+    },
+  ],
+  authour: 'Ковачевич Марко',
 };
 
 export default {

@@ -27,7 +27,6 @@
     flex-direction: column;
     row-gap: 10px;
     align-items: start;
-
     &-wrapper {
       margin-bottom: 20px;
       margin-top: 20px;
@@ -37,9 +36,28 @@
       text-align: left;
       color: black;
     }
+    &-sub-title {
+      text-align: left;
+      color: black;
+    }
     &-icon {
       width: 16px;
       margin-right: 4px;
     }
   }
+}
+.sendDok {
+  width: 400px;
+  height: 300px;
+}
+
+.authour {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.block {
+  height: 20px;
 }
