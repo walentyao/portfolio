@@ -11,7 +11,7 @@ import { lang } from '@shared/enums';
 import { AppRoutes } from '@shared/types';
 
 export const ButtonLanguage = () => {
-  const { lg } = useParams();
+  const { lg, username } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
   const changeLanguage = (newLang: lang) => {
@@ -21,11 +21,14 @@ export const ButtonLanguage = () => {
     );
     if (
       newPath.includes(AppRoutes.REFERAT) ||
-      newPath.includes(AppRoutes.RESUME)
+      newPath.includes(AppRoutes.RESUME) ||
+      newPath.includes(AppRoutes.REPORT_SEARCH)
     ) {
       navigate(newPath);
     } else {
-      navigate(`/${newLang}/${AppRoutes.REFERAT}`);
+      navigate(
+        `/${newLang}/${username}/${AppRoutes.REFERAT}`,
+      );
     }
   };
   return (
