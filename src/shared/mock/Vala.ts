@@ -277,7 +277,7 @@ export const reportSearchResponse = [
   {
     id: 1,
     numberPhrase: 1,
-    language: 'рус',
+    language: 'ru',
     phrase:
       'Разработка системы для отслеживания и анализа ошибок и метрик производительности веб-приложений',
     search: 'Google',
@@ -287,19 +287,21 @@ export const reportSearchResponse = [
   {
     id: 2,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '220000',
     link: 'https://yandex.ru/search/?text=%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B+%D0%B4%D0%BB%D1%8F+%D0%BE%D1%82%D1%81%D0%BB%D0%B5%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F+%D0%B8+%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0+%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA+%D0%B8+%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%BA+%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8+%D0%B2%D0%B5%D0%B1-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9&lr=35&clid=2261451&win=565&src=suggest_Pers',
   },
   {
     id: 3,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '34300',
     link: 'https://www.bing.com/search?q=Разработка%20системы%20для%20отслеживания%20и%20анализа%20ошибок%20и%20метрик%20производительности%20веб-приложений',
   },
   {
     id: 4,
     numberPhrase: 2,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Гаркуша Олег Васильевич',
     search: 'Google',
     countDocuments: '25300',
@@ -308,19 +310,21 @@ export const reportSearchResponse = [
   {
     id: 5,
     search: 'Яндекс',
+    language: 'ru',
     link: 'https://ya.ru/search/?text=%D0%B3%D0%B0%D1%80%D0%BA%D1%83%D1%88%D0%B0+%D0%BE%D0%BB%D0%B5%D0%B3+%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87&lr=35&within=0&lang=ru',
     countDocuments: '4010',
   },
   {
     id: 6,
     search: 'Bing',
+    language: 'ru',
     link: 'https://www.bing.com/search?q=%D0%93%D0%B0%D1%80%D0%BA%D1%83%D1%88%D0%B0+%D0%9E%D0%BB%D0%B5%D0%B3+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87&qs=n&form=QBRE&sp=-1&lq=0&pq=%D0%B3%D0%B0%D1%80%D0%BA%D1%83%D1%88%D0%B0+%D0%BE%D0%BB%D0%B5%D0%B3+%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87&sc=0-23&sk=&cvid=CCD6BF62E1AD410FA18BB90546DB5DD0&ghsh=0&ghacc=0&ghpl=',
     countDocuments: '108000',
   },
   {
     id: 7,
     numberPhrase: 3,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Методы отслеживания ошибок веб-приложений',
     search: 'Google',
     countDocuments: '68100000',
@@ -329,19 +333,21 @@ export const reportSearchResponse = [
   {
     id: 8,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '1430000',
     link: 'https://ya.ru/search/?text=%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D1%8B+%D0%BE%D1%82%D1%81%D0%BB%D0%B5%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F+%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA+%D0%B2%D0%B5%D0%B1-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9&clid=2261451&banerid=0699000038%3ASW-d938d73bd9d6&win=565&lr=131601',
   },
   {
     id: 9,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '171000',
     link: 'https://www.bing.com/search?q=Методы%20отслеживания%20ошибок%20веб-приложений',
   },
   {
     id: 10,
     numberPhrase: 4,
-    language: 'рус',
+    language: 'ru',
     phrase: ' Отслеживание метрик веб-приложений',
     search: 'Google',
     countDocuments: '20900000',
@@ -350,19 +356,21 @@ export const reportSearchResponse = [
   {
     id: 11,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '54000',
     link: 'https://yandex.ru/search/?text=%D0%9E%D1%82%D1%81%D0%BB%D0%B5%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%BA+%D0%B2%D0%B5%D0%B1-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9&clid=2261451&banerid=0699000038%3ASW-d938d73bd9d6&win=565&lr=35',
   },
   {
     id: 12,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '75100',
     link: 'https://www.bing.com/search?q=Отслеживание%20метрик%20веб-приложений',
   },
   {
     id: 13,
     numberPhrase: 5,
-    language: 'рус',
+    language: 'ru',
     phrase: 'Анализ ошибок веб-приложения ',
     search: 'Google',
     countDocuments: '77400000',
@@ -371,12 +379,14 @@ export const reportSearchResponse = [
   {
     id: 14,
     search: 'Яндекс',
+    language: 'ru',
     countDocuments: '1320000',
     link: 'https://yandex.ru/search/?text=%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7+%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA+%D0%B2%D0%B5%D0%B1-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F&clid=2261451&banerid=0699000038%3ASW-d938d73bd9d6&win=565&lr=35',
   },
   {
     id: 15,
     search: 'Bing',
+    language: 'ru',
     countDocuments: '142000',
     link: 'https://www.bing.com/search?q=Анализ+ошибок+веб-приложения&qs=n&form=QBRE&sp=-1&lq=0&pq=анализ+ошибок+веб-приложения&sc=0-28&sk=&cvid=FC2E9B2E35A4473F8A929A99058CE144&ghsh=0&ghacc=0&ghpl=',
   },
@@ -393,12 +403,14 @@ export const reportSearchResponse = [
   {
     id: 17,
     search: 'Яндекс',
+    language: 'eng',
     countDocuments: '8000000',
     link: 'https://yandex.ru/search/?text=Development+of+a+system+for+tracking+and+analyzing+errors+and+performance+metrics+of+web+applications&clid=2261451&banerid=0699000038%3ASW-d938d73bd9d6&win=565&lr=35',
   },
   {
     id: 18,
     search: 'Bing',
+    language: 'eng',
     countDocuments: '62800',
     link: 'https://search.yahoo.com/search;_ylt=AwrLAvwdHCBnKQIAyjLLxgt.;_ylc=X1MDMjExNDcwMTAwMwRfcgMyBGZyA3NmcARmcjIDc2ItdG9wBGdwcmlkA0c1S2RoWUlaVEYyaUVxTFB3QnhHeUEEbl9yc2x0AzAEbl9zdWdnAzAEb3JpZ2luA3J1LnNlYXJjaC55YWhvby5jb20EcG9zAzAEcHFzdHIDBHBxc3RybAMwBHFzdHJsAzEwMQRxdWVyeQNEZXZlbG9wbWVudCUyMG9mJTIwYSUyMHN5c3RlbSUyMGZvciUyMHRyYWNraW5nJTIwYW5kJTIwYW5hbHl6aW5nJTIwZXJyb3JzJTIwYW5kJTIwcGVyZm9ybWFuY2UlMjBtZXRyaWNzJTIwb2YlMjB3ZWIlMjBhcHBsaWNhdGlvbnMEdF9zdG1wAzE3MzAxNTgwMzQ-?p=Development+of+a+system+for+tracking+and+analyzing+errors+and+performance+metrics+of+web+applications&fr=sfp&fr2=sb-top',
   },
@@ -414,12 +426,14 @@ export const reportSearchResponse = [
   {
     id: 20,
     search: 'Яндекс',
+    language: 'eng',
     countDocuments: '100',
     link: 'https://ya.ru/search/?text=Garkusha+Oleg+Vasilievich&lr=35&within=0&lang=en',
   },
   {
     id: 21,
     search: 'Bing',
+    language: 'eng',
     countDocuments: '61000',
     link: 'https://www.bing.com/search?q=Garkusha+Oleg+Vasilievich&qs=n&form=QBRE&sp=-1&lq=0&pq=garkusha+oleg+vasilievich&sc=10-25&sk=&cvid=07D42394A8BB44CD942CA50AD219BBFC&ghsh=0&ghacc=0&ghpl=',
   },
@@ -435,12 +449,14 @@ export const reportSearchResponse = [
   {
     id: 23,
     search: 'Яндекс',
+    language: 'eng',
     countDocuments: '7800000',
     link: 'https://yandex.ru/search/?text=Methods+for+tracking+Web+application+errors&clid=2261451&banerid=0699000038%3ASW-d938d73bd9d6&win=565&lr=35',
   },
   {
     id: 24,
     search: 'Bing',
+    language: 'eng',
     countDocuments: '1730000',
     link: 'https://www.bing.com/search?q=Methods%20for%20tracking%20Web%20application%20errors',
   },
@@ -457,12 +473,14 @@ export const reportSearchResponse = [
     id: 26,
     search: 'Яндекс',
     countDocuments: '1123000',
+    language: 'eng',
     link: 'https://yandex.ru/search/?text=Tracking+Web+application+metrics&clid=2261451&banerid=0699000038%3ASW-d938d73bd9d6&win=565&lr=35',
   },
   {
     id: 27,
     search: 'Bing',
     countDocuments: '1960000',
+    language: 'eng',
     link: 'https://www.bing.com/search?q=Tracking%20Web%20application%20metrics',
   },
   {
@@ -477,12 +495,14 @@ export const reportSearchResponse = [
   {
     id: 29,
     search: 'Яндекс',
+    language: 'eng',
     countDocuments: '5000000',
     link: 'https://yandex.ru/search/?text=Web+Application+Error+Analysis&lr=35&clid=2261451&win=565',
   },
   {
     id: 30,
     search: 'Bing',
+    language: 'eng',
     countDocuments: '3330000',
     link: 'https://www.bing.com/search?q=Choosing+the+best+algorithm&qs=n&form=QBRE&sp=-1&lq=0&pq=choosing+the+best+algorithm&sc=10-27&sk=&cvid=A8FA078A7F794C7B81A4734490D99A57&ghsh=0&ghacc=0&ghpl=',
   },
@@ -548,7 +568,7 @@ export const LinkResponse = {
 };
 
 export const PersonalLink = {
-  title: 'Люблю Яблоки',
+  title: 'Люблю Фонк и Дрифт',
   video: '/Реклама Apple Macintosh 1984.mp4',
   preview: '/images.jpg',
 };

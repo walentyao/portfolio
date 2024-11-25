@@ -5,6 +5,7 @@
   flex-direction: row;
   column-gap: 20px;
   justify-content: center;
+  overflow-y: auto;
 }
 
 .app-page {
@@ -41,4 +42,5 @@
   justify-content: flex-end;
   box-sizing: border-box;
   font-size: var(--font-size-caption1);
+  color: white;
 }
