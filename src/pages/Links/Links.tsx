@@ -48,7 +48,9 @@ export const Links = () => {
             header={header}
             key={sait.link}
           >
-            <a href={sait.link}>Ссылка</a>
+            <a href={sait.link} target="_blank">
+              Ссылка
+            </a>
             <p className={cls.link}>{sait.description}</p>
           </Card>
         ))}
