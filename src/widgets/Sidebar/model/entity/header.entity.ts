@@ -43,7 +43,7 @@ export const headerItems: HeaderItem[] = [
   },
   {
     link: AppRoutes.UEMK,
-    text: 'УЭМК',
+    text: 'ЭУМК',
     languages: [lang.RU],
   },
 ];
