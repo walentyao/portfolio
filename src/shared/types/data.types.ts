@@ -33,4 +33,5 @@ export type UsernameType =
   | 'matvey'
   | 'valentin'
   | 'violetta'
-  | 'marko';
+  | 'marko'
+  | 'adelina';

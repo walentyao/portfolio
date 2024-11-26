@@ -20,9 +20,13 @@ export const AppLayout = () => {
 
   if (
     lg &&
-    !['matvey', 'valentin', 'violetta', 'marko'].includes(
-      username as string,
-    )
+    ![
+      'matvey',
+      'valentin',
+      'violetta',
+      'marko',
+      'adelina',
+    ].includes(username as string)
   )
     return <Navigate to={`/${lg}/valentin`} />;
 
