@@ -649,6 +649,7 @@ export const UemkResponse = {
     },
   ],
   authour: 'Матюха Валентин',
+  kriteri: '/uemkValentin/kriteri.docx',
 };
 
 export default {

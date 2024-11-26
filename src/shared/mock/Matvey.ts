@@ -664,6 +664,7 @@ export const UemkResponse = {
     },
   ],
   authour: 'Акулов Матвей',
+  kriteri: '/uemkMatvey/kriteri.docx',
 };
 
 export default {

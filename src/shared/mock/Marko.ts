@@ -643,6 +643,7 @@ export const UemkResponse = {
     },
   ],
   authour: 'Ковачевич Марко',
+  kriteri: '/uemkMarko/kriteri.docx',
 };
 
 export default {

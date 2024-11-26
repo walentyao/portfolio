@@ -89,6 +89,27 @@ export const Uemk = () => {
           </div>
         </Card>
       ))}
+      <Card className={cls.uemkLectureWrapper}>
+        <div className={cls.uemkLecture}>
+          <h4 className={cls.uemkLectureTitle}>
+            Критерии оценки
+          </h4>
+          <h5 className={cls.uemkLectureSubTitle}>
+            Критерии оценки практических занятий.
+          </h5>
+          <div>
+            <DocumentTextIcon
+              className={cls.uemkLectureIcon}
+            />
+            <a
+              href={UemkResponse.kriteri}
+              download={`Критерии оценки.docx`}
+            >
+              Скачать критерии Word
+            </a>
+          </div>
+        </div>
+      </Card>
       <h2 className={cls.uemkTitleBlockKurs}>
         Тестирование
       </h2>

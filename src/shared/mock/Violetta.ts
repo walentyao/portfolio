@@ -654,6 +654,7 @@ export const UemkResponse = {
     },
   ],
   authour: 'Коровина Виолетта',
+  kriteri: '',
 };
 
 export default {
