@@ -590,71 +590,80 @@ export const PersonalLink = {
   preview: '/ui.png',
 };
 export const UemkResponse = {
-  titleKurs: '',
-  descriptionKurs: '',
+  titleKurs: 'Теория вероятностей',
+  descriptionKurs:
+    'Этот курс посвящен изучению теории вероятностей — одной из ключевых дисциплин, лежащих в основе анализа данных, математической статистики и машинного обучения. Мы начнем с основ, таких как определение вероятности и свойства случайных величин, и постепенно перейдем к более сложным темам, включая центральную предельную теорему, законы больших чисел и их прикладное значение. Курс ориентирован на тех, кто хочет научиться понимать вероятностные процессы, прогнозировать события и решать реальные задачи в различных областях — от анализа данных до инженерии и экономики. На практических занятиях вы освоите методы вычисления вероятностей, работы с распределениями и применения теории вероятностей для моделирования и принятия решений.',
   lectures: [
     {
-      title: '',
-      pathDocument: '',
+      title: 'Основы теории вероятностей',
+      pathDocument: '/uemkVioletta/1.docx',
     },
     {
-      title: '',
-      pathDocument: '',
+      title: 'Условные вероятности и независимость событий',
+      pathDocument: '/uemkVioletta/2.docx',
     },
     {
-      title: '',
-      pathDocument: '',
+      title: 'Полная вероятность и формула Байеса',
+      pathDocument: '/uemkVioletta/3.docx',
     },
     {
-      title: '',
-      pathDocument: '',
+      title: 'Случайные величины и их распределения',
+      pathDocument: '/uemkVioletta/4.docx',
     },
     {
-      title: '',
-      pathDocument: '',
+      title:
+        'Математическое ожидание, дисперсия и другие характеристики',
+      pathDocument: '/uemkVioletta/5.docx',
     },
     {
-      title: '',
-      pathDocument: '',
+      title:
+        'Центральная предельная теорема и законы больших чисел',
+      pathDocument: '/uemkVioletta/6.docx',
     },
     {
-      title: '',
-      pathDocument: '',
+      title: 'Прикладные задачи теории вероятностей',
+      pathDocument: '/uemkVioletta/7.docx',
     },
   ],
   tasks: [
     {
-      title: '',
-      pathDocument: '',
+      title: 'Моделирование случайных событий',
+      pathDocument: '/uemkVioletta/tasks/1.docx',
     },
     {
-      title: '',
-      pathDocument: '',
+      title: 'Финансовый риск',
+      pathDocument: '/uemkVioletta/tasks/2.docx',
     },
     {
-      title: '',
-      pathDocument: '',
+      title:
+        'Прогнозирование с использованием теоремы Байеса',
+      pathDocument: '/uemkVioletta/tasks/3.docx',
     },
   ],
   dopMatireals: [
     {
-      title: '',
-      description: '',
-      link: '',
+      title:
+        'Теория вероятностей: как научиться предсказывать случайные события',
+      description:
+        'Курс, посвящённый основам теории вероятностей. Рассматриваются ключевые концепции, такие как случайные события, вероятностные распределения и математическое ожидание.',
+      link: 'https://skillbox.ru/media/code/teoriya-veroyatnostey-kak-nauchitsya-predskazyvat-sluchaynye-sobytiya/',
     },
     {
-      title: '',
-      description: '',
-      link: '',
+      title:
+        'Введение в теорию вероятностей и статистику (Khan Academy)',
+      description:
+        'Курс от Khan Academy, который объясняет основные принципы теории вероятностей и их применение в статистике, с множеством примеров и практических упражнений.',
+      link: 'https://www.khanacademy.org/math/statistics-probability/probability-library',
     },
     {
-      title: '',
-      description: '',
-      link: '',
+      title: 'Формула Байеса: Приложения в реальной жизни',
+      description:
+        'Статья на MathWorld, подробно объясняющая применение формулы Байеса в различных областях, таких как медицина, финансы и искусственный интеллект.',
+      link: 'https://mathworld.wolfram.com/BayesTheorem.html',
     },
   ],
   authour: 'Коровина Виолетта',
-  kriteri: '',
+  kriteri: '/uemkVioletta/kriteri.docx',
 };
 
 export default {

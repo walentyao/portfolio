@@ -246,26 +246,16 @@ export const referatResponseRu = [
 export const biographyResponse = {
   articles: [
     {
-      title: 'Introduction',
-      body: "In today's world, digitalization has become an integral part of the development of the economy and society. One of the key challenges is the analysis and optimization of the IT sector, which plays a significant role in the regional labor market. This paper is dedicated to the study of the ontological approach to building a digital shadow of the IT sector in the regional labor market, which allows for structured data and new opportunities for analysis and management of this segment.",
+      title: 'Личностное становление',
+      body: 'В процессе личностного становления я научилась понимать свои сильные и слабые стороны, что стало основой для дальнейшего развития. Опыт общения с различными людьми, включая друзей, коллег и наставников, помог мне развить навыки эмпатии и активного слушания. Я стремлюсь к самосовершенствованию через чтение, участие в тренингах и открытие для себя новых горизонтов.',
     },
     {
-      title: 'Machine Vision: Basics and Advantages',
-      body: 'Machine vision refers to the technology and methods used to enable computers to interpret and understand visual information from the world, similar to how humans use their eyes. Machine vision systems can be used for various tasks such as object detection, recognition, and classification. The advantages of machine vision include high accuracy, speed, and the ability to process large volumes of data automatically, making it ideal for applications in automated quality control, security, and medical diagnostics.',
+      title: 'Профессиональное становление',
+      body: 'Мое профессиональное становление началось с получения степени бакалавра в области прикладной математики и информатики, что дало мне необходимые теоретические знания.',
     },
     {
-      title:
-        'Data Detection and Identification in Machine Vision',
-      body: 'The data detection and identification system based on machine vision involves the process of analyzing and recognizing patterns, objects, or anomalies in images or videos. This system utilizes algorithms such as deep learning and computer vision techniques to identify objects, classify them, and extract useful data from visual sources. It is highly useful in areas such as surveillance, robotics, and autonomous vehicles, where precise recognition of data and objects is crucial for decision-making.',
-    },
-    {
-      title:
-        'Application of Machine Vision Methods in Data Identification',
-      body: 'The application of machine vision methods for data identification includes the stages of image preprocessing, feature extraction, pattern recognition, and decision-making. This approach enables automation in fields like industrial automation, where it can detect defects in manufacturing processes or ensure product quality. Machine vision methods can also be applied in healthcare for diagnostic purposes, in security for surveillance systems, and in transportation for vehicle recognition in smart cities.',
-    },
-    {
-      title: 'Conclusion',
-      body: 'The use of machine vision methods in data detection and identification provides a powerful tool for automating and improving the accuracy of data analysis. These systems can significantly enhance decision-making processes, reduce errors, and increase efficiency across various sectors, from manufacturing to healthcare. As machine vision technology continues to evolve, it will play an even greater role in transforming industries and optimizing workflows.',
+      title: 'Цели, планы и видение будущего',
+      body: 'В ближайшие годы я планирую углубить свои знания в области аналитики данных и развить навыки работы с новыми инструментами и технологиями. Моя долгосрочная цель — занять руководящую позицию в области аналитики, где смогу не только применять свои знания, но и вдохновлять других. Я вижу свою карьеру как постоянное движение к новым горизонтам, где я смогу сочетать профессиональные достижения с личными интересами, помогая людям и организациям достигать их целей.',
     },
   ],
 };
@@ -441,26 +431,6 @@ export const LinkResponse = {
       description:
         'This book provides an in-depth exploration of machine vision techniques for data detection and identification. It covers the application of image processing algorithms and deep learning models for analyzing visual data and recognizing patterns in various fields, such as industrial automation, healthcare, and transportation.',
     },
-    {
-      title: 'Computer Vision for Automated Data Analysis',
-      authors: 'David Brown, Lisa Miller',
-      description:
-        'The authors discuss how computer vision and machine learning can be used for automated data analysis. The book focuses on techniques for object detection, recognition, and classification, providing insights into how these methods are applied in industries such as manufacturing, security, and medical imaging.',
-    },
-    {
-      title:
-        'Introduction to Machine Vision and Its Applications',
-      authors: 'Robert Davis, Emily White',
-      description:
-        'This introductory book explores the fundamentals of machine vision and its practical applications. It highlights how machine vision can be used for data identification, anomaly detection, and real-time image processing across various sectors like robotics, automotive, and surveillance.',
-    },
-    {
-      title:
-        'Machine Vision Systems for Industrial Automation',
-      authors: 'James Taylor, Richard Clark',
-      description:
-        'The book examines the implementation of machine vision systems in industrial automation. It covers topics such as defect detection, quality control, and system integration for efficient manufacturing processes using machine vision and data identification techniques.',
-    },
   ],
   saits: [
     {
@@ -474,6 +444,24 @@ export const LinkResponse = {
       description:
         'Википедия предоставляет основную информацию о машинном зрении, его методах и применении, включая обработку изображений, бинаризацию и распознавание объектов.',
       source: 'Wikipedia',
+    },
+    {
+      link: 'https://arxiv.org/abs/2001.06268',
+      description:
+        'Научная работа на arXiv, посвященная современным методам и алгоритмам машинного зрения, включая архитектуры глубоких нейронных сетей.',
+      source: 'arXiv',
+    },
+    {
+      link: 'https://opencv.org/',
+      description:
+        'Официальный сайт OpenCV, одной из самых популярных библиотек для компьютерного зрения, предоставляет документацию, примеры и ресурсы.',
+      source: 'OpenCV',
+    },
+    {
+      link: 'https://trends.rbc.ru/trends/industry/60c85c599a7947f5776ad409',
+      description:
+        'РБК о том то придумал machine learning, что оно подразумевает и как устроены алгоритмы обучения?',
+      source: 'PБК',
     },
   ],
 };
