@@ -67,7 +67,7 @@ export const Test = () => {
         <script src="https://forms.yandex.ru/_static/embed.js"></script>
         <iframe
           src="https://forms.yandex.ru/u/674764025056901760a87809/?iframe=1"
-          frameborder="0"
+          frameBorder="0"
           name="ya-form-674764025056901760a87809"
           width="650"
           height="5500px"
