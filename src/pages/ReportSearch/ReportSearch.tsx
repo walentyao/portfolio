@@ -11,23 +11,15 @@ export const ReportSearch = () => {
   const username = useContext(ContextUsername);
   const { reportSearchResponse } = user[username];
 
-  const linkBodyTemplate = (
-    report: (typeof reportSearchResponse)[0],
-  ) => {
+  const linkBodyTemplate = (report: (typeof reportSearchResponse)[0]) => {
     return (
-      <a
-        href={`${report.link}`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href={`${report.link}`} target="_blank" rel="noopener noreferrer">
         {lg === 'ru' ? 'Ссылка' : 'Link'}
       </a>
     );
   };
 
-  const renameCountDocuments = (
-    item: (typeof reportSearchResponse)[0],
-  ) => {
+  const renameCountDocuments = (item: (typeof reportSearchResponse)[0]) => {
     if (
       typeof item.countDocuments === 'string' &&
       item.countDocuments &&
@@ -46,9 +38,7 @@ export const ReportSearch = () => {
         {lg === 'ru' ? 'На русском языке' : 'In Russian'}
       </h3>
       <DataTable
-        value={reportSearchResponse.filter(
-          item => item.language === 'ru',
-        )}
+        value={reportSearchResponse.filter(item => item.language === 'ru')}
         tableStyle={{
           minWidth: '50rem',
         }}
@@ -60,19 +50,11 @@ export const ReportSearch = () => {
         ></Column>
         <Column
           field="search"
-          header={
-            lg === 'ru'
-              ? 'Поисковая система'
-              : 'Search engine'
-          }
+          header={lg === 'ru' ? 'Поисковая система' : 'Search engine'}
         ></Column>
         <Column
           field="countDocuments"
-          header={
-            lg === 'ru'
-              ? 'Документы 28.09.2024'
-              : 'Documents 28.09.2024'
-          }
+          header={lg === 'ru' ? 'Документы' : 'Documents'}
           body={renameCountDocuments}
         ></Column>
         <Column
@@ -87,9 +69,7 @@ export const ReportSearch = () => {
         {lg === 'ru' ? 'На английском языке' : 'In English'}
       </h3>
       <DataTable
-        value={reportSearchResponse.filter(
-          item => item.language === 'eng',
-        )}
+        value={reportSearchResponse.filter(item => item.language === 'eng')}
         tableStyle={{
           minWidth: '50rem',
         }}
@@ -101,19 +81,11 @@ export const ReportSearch = () => {
         ></Column>
         <Column
           field="search"
-          header={
-            lg === 'ru'
-              ? 'Поисковая система'
-              : 'Search engine'
-          }
+          header={lg === 'ru' ? 'Поисковая система' : 'Search engine'}
         ></Column>
         <Column
           field="countDocuments"
-          header={
-            lg === 'ru'
-              ? 'Документы 28.09.2024'
-              : 'Documents 28.09.2024'
-          }
+          header={lg === 'ru' ? 'Документы ' : 'Documents '}
           body={renameCountDocuments}
         ></Column>
         <Column
