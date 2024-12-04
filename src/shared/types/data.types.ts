@@ -34,4 +34,5 @@ export type UsernameType =
   | 'valentin'
   | 'violetta'
   | 'marko'
-  | 'adelina';
+  | 'adelina'
+  | 'dmitry';

@@ -26,6 +26,7 @@ export const AppLayout = () => {
       'violetta',
       'marko',
       'adelina',
+      'dmitry',
     ].includes(username as string)
   )
     return <Navigate to={`/${lg}/valentin`} />;

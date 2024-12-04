@@ -10,12 +10,8 @@ export const Ind = () => {
   return (
     <section aria-label="Ind" className={cls.ind}>
       <h3 className={cls.indTitle}>{data.title}</h3>
-      {!(username === 'valentin') && (
-        <video
-          className={cls.indVideo}
-          controls
-          poster={data.preview}
-        >
+      {!(username === 'valentin' || username === 'dmitry') && (
+        <video className={cls.indVideo} controls poster={data.preview}>
           <source src={data.video} type="video/mp4" />
         </video>
       )}
@@ -27,7 +23,21 @@ export const Ind = () => {
           allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
           frameBorder="0"
           allowFullScreen
+          className={cls.frame}
         ></iframe>
+      )}
+      {username === 'dmitry' && (
+        <div>
+          <iframe
+            src="https://vkvideo.ru/video_ext.php?oid=-104975916&id=456239936&hd=1&autoplay=1"
+            width="640"
+            height="360"
+            allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+            frameBorder="0"
+            className={cls.frame}
+            allowFullScreen
+          ></iframe>
+        </div>
       )}
     </section>
   );

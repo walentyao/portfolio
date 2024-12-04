@@ -3,6 +3,7 @@ import valentin from './Vala';
 import violetta from './Violetta';
 import marko from './Marko';
 import adelina from './Adelina';
+import dmitry from './Dmitriy';
 
 export const user = {
   matvey,
@@ -10,4 +11,5 @@ export const user = {
   violetta,
   marko,
   adelina,
+  dmitry,
 };
