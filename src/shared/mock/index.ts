@@ -1,15 +1,5 @@
-import matvey from './Matvey';
-import valentin from './Vala';
-import violetta from './Violetta';
-import marko from './Marko';
-import adelina from './Adelina';
-import dmitry from './Dmitriy';
+import vanya from './Vala';
 
 export const user = {
-  matvey,
-  valentin,
-  violetta,
-  marko,
-  adelina,
-  dmitry,
+  vanya,
 };

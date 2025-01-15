@@ -1,7 +1,7 @@
 .uemk {
   &-title {
     font-size: 34px;
-    color: white;
+    color: black;
 
     text-align: center;
 
@@ -9,12 +9,12 @@
       margin-top: 10px;
       margin-bottom: 10px;
       font-size: 28px;
-      color: white;
+      color: black;
       text-align: center;
     }
     &-block-kurs {
       text-align: center;
-      color: white;
+      color: black;
       margin-top: 30px;
       margin-bottom: 30px;
     }
@@ -30,6 +30,7 @@
     &-wrapper {
       margin-bottom: 20px;
       margin-top: 20px;
+      background-color: rgba($color: #c9c9c9, $alpha: 0.2);
     }
 
     &-title {
@@ -53,11 +54,15 @@
 
 .authour {
   text-align: center;
-  color: white;
+  color: black;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .block {
   height: 20px;
+}
+
+.uemkDesciptionWrapper {
+  background-color: rgba($color: #c9c9c9, $alpha: 0.2);
 }

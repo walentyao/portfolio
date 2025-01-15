@@ -9,29 +9,20 @@ interface SidebarProps {
   CurrentLang: lang;
 }
 
-export const Sidebar = ({
-  className,
-  CurrentLang,
-}: SidebarProps) => {
+export const Sidebar = ({ className, CurrentLang }: SidebarProps) => {
   return (
-    <aside
-      className={classNames(cls.aside, {}, [className])}
-    >
+    <nav className={classNames(cls.aside, {}, [className])}>
       {headerItems.map(
         item =>
           item.languages.includes(CurrentLang) && (
             <SidebarItem
               key={item.link}
               path={`${item.link}`}
-              label={
-                CurrentLang === lang.RU
-                  ? item.text
-                  : item.textEng
-              }
+              label={CurrentLang === lang.RU ? item.text : item.textEng}
             />
           ),
       )}
-    </aside>
+    </nav>
   );
 };
 

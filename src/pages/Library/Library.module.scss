@@ -1,9 +1,10 @@
 .title {
-  color: white;
+  color: black;
   font-size: 24px;
 }
 .card {
   margin-top: 20px;
+  background-color: rgba($color: #c9c9c9, $alpha: 0.2);
 }
 .authors {
   padding-top: 8px;

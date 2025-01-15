@@ -1,5 +1,5 @@
 .main {
-  color: white;
+  color: black;
 }
 
 .profile {
@@ -22,7 +22,7 @@
   flex-direction: column;
   row-gap: 10px;
   border-radius: 20px;
-  background-color: rgba($color: #3b3b3b, $alpha: 0.3);
+  background-color: rgba($color: #c9c9c9, $alpha: 0.3);
 }
 
 .info-name {
@@ -52,7 +52,7 @@
 .additional-item {
   padding: 20px;
   border-radius: 20px;
-  background-color: rgba($color: #3b3b3b, $alpha: 0.2);
+  background-color: rgba($color: #c9c9c9, $alpha: 0.2);
 
   &-title {
     font-size: 20px;
@@ -93,5 +93,5 @@
 
 .list-icon {
   width: 24px;
-  color: white;
+  color: c9c9c9;
 }

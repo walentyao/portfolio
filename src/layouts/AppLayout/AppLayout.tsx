@@ -1,8 +1,4 @@
-import {
-  Navigate,
-  Outlet,
-  useParams,
-} from 'react-router-dom';
+import { Navigate, Outlet, useParams } from 'react-router-dom';
 import { Sidebar } from '@widgets/Sidebar';
 import { ButtonLanguage } from '@features/ButtonLanguage/ButtonLanguage';
 import { lang } from '@shared/enums';
@@ -15,26 +11,13 @@ export const AppLayout = () => {
   const { lg, username } = useParams();
   useTitle(username as string);
 
-  if (!['ru', 'eng'].includes(lg as string))
-    return <Navigate to={'/ru'} />;
+  if (!['ru', 'eng'].includes(lg as string)) return <Navigate to={'/ru'} />;
 
-  if (
-    lg &&
-    ![
-      'matvey',
-      'valentin',
-      'violetta',
-      'marko',
-      'adelina',
-      'dmitry',
-    ].includes(username as string)
-  )
-    return <Navigate to={`/${lg}/valentin`} />;
+  if (lg && !['valentin', 'vanya'].includes(username as string))
+    return <Navigate to={`/${lg}/vanya`} />;
 
   return (
-    <ContextUsername.Provider
-      value={username as UsernameType}
-    >
+    <ContextUsername.Provider value={username as UsernameType}>
       <div className={cls.app}>
         <div className={cls.appHeader}>
           <ButtonLanguage />
@@ -44,9 +27,7 @@ export const AppLayout = () => {
           <Outlet />
         </div>
       </div>
-      <footer className={cls.footer}>
-        Design by Walentyao
-      </footer>
+      <footer className={cls.footer}>Design by Walentyao</footer>
     </ContextUsername.Provider>
   );
 };

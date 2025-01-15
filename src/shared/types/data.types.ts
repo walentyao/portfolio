@@ -29,10 +29,4 @@ export interface Data {
   aboutMe: AboutMeSection[];
 }
 
-export type UsernameType =
-  | 'matvey'
-  | 'valentin'
-  | 'violetta'
-  | 'marko'
-  | 'adelina'
-  | 'dmitry';
+export type UsernameType = 'vanya';
