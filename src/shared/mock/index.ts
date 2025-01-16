@@ -1,5 +1,5 @@
-import vanya from './Vala';
+import patokov from './Vala';
 
 export const user = {
-  vanya,
+  patokov,
 };

@@ -1,18 +1,18 @@
 .link {
-  color: var(--color-text-primary);
+  color: var(--color-text-white);
   text-decoration: none;
   font-size: 18px;
   padding: 6px 12px;
 
-  &:hover {
+  &:hover:not(.is-active) {
     transition: color 0.2s ease-in-out;
-    color: var(--color-text-white);
+    color: rgba(255, 255, 255, 0.864);
   }
 }
 
 .is-active {
   border-radius: 6px;
-  color: white;
+  color: black;
   font-weight: bold;
-  background-color: black;
+  background-color: white;
 }

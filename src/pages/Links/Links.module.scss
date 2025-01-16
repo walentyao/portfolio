@@ -1,5 +1,5 @@
 .links {
-  color: black;
+  color: white;
 }
 .title {
   font-size: 32px;
@@ -15,7 +15,8 @@
   }
   &-item {
     max-width: 300px;
-    background-color: rgba($color: #c9c9c9, $alpha: 0.2);
+    color: white;
+    background-color: #121212;
   }
 }
 

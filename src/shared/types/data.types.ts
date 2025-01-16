@@ -29,4 +29,4 @@ export interface Data {
   aboutMe: AboutMeSection[];
 }
 
-export type UsernameType = 'vanya';
+export type UsernameType = 'patokov';

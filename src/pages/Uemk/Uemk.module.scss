@@ -1,7 +1,7 @@
 .uemk {
   &-title {
     font-size: 34px;
-    color: black;
+    color: white;
 
     text-align: center;
 
@@ -9,12 +9,12 @@
       margin-top: 10px;
       margin-bottom: 10px;
       font-size: 28px;
-      color: black;
+      color: white;
       text-align: center;
     }
     &-block-kurs {
       text-align: center;
-      color: black;
+      color: white;
       margin-top: 30px;
       margin-bottom: 30px;
     }
@@ -30,16 +30,16 @@
     &-wrapper {
       margin-bottom: 20px;
       margin-top: 20px;
-      background-color: rgba($color: #c9c9c9, $alpha: 0.2);
+      background-color: #121212;
     }
 
     &-title {
       text-align: left;
-      color: black;
+      color: white;
     }
     &-sub-title {
       text-align: left;
-      color: black;
+      color: white;
     }
     &-icon {
       width: 16px;
@@ -54,7 +54,7 @@
 
 .authour {
   text-align: center;
-  color: black;
+  color: white;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -64,5 +64,23 @@
 }
 
 .uemkDesciptionWrapper {
-  background-color: rgba($color: #c9c9c9, $alpha: 0.2);
+  color: white;
+  background-color: #121212;
+}
+
+.uemkLectureWrapper {
+  background-color: #121212;
+  color: white;
+}
+
+.praktisForm {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.praktisFormWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }

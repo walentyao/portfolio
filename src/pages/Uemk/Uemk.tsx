@@ -55,16 +55,18 @@ export const Uemk = () => {
                 Скачать задание Word
               </a>
             </div>
-            <>
-              <script src="https://forms.yandex.ru/_static/embed.js"></script>
-              <iframe
-                id="ifr"
-                className={cls.sendDok}
-                src="https://forms.yandex.ru/u/6742ffd85d2a06172cb0c0a2/?iframe=1"
-                name="ya-form-6742ffd85d2a06172cb0c0a2"
-                frameBorder="0"
-              ></iframe>
-            </>
+            <div className={cls.praktisFormWrapper}>
+              <div className={cls.praktisForm}>
+                <script src="https://forms.yandex.ru/_static/embed.js"></script>
+                <iframe
+                  id="ifr"
+                  className={cls.sendDok}
+                  src="https://forms.yandex.ru/u/6742ffd85d2a06172cb0c0a2/?iframe=1"
+                  name="ya-form-6742ffd85d2a06172cb0c0a2"
+                  frameBorder="0"
+                ></iframe>
+              </div>
+            </div>
           </div>
         </Card>
       ))}

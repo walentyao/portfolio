@@ -13,8 +13,8 @@ export const AppLayout = () => {
 
   if (!['ru', 'eng'].includes(lg as string)) return <Navigate to={'/ru'} />;
 
-  if (lg && !['valentin', 'vanya'].includes(username as string))
-    return <Navigate to={`/${lg}/vanya`} />;
+  if (lg && !['patokov'].includes(username as string))
+    return <Navigate to={`/${lg}/patokov`} />;
 
   return (
     <ContextUsername.Provider value={username as UsernameType}>

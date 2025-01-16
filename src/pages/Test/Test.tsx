@@ -5,7 +5,7 @@ import { ContextUsername } from '@shared/context/username.context';
 export const Test = () => {
   const username = useContext(ContextUsername);
 
-  if (username === 'vanya') {
+  if (username === 'patokov') {
     return (
       <div className={cls.profile}>
         <script src="https://forms.yandex.ru/_static/embed.js"></script>
