@@ -13,7 +13,7 @@ export const AppLayout = () => {
 
   if (!['ru', 'eng'].includes(lg as string)) return <Navigate to={'/ru'} />;
 
-  if (lg && !['valentin', 'vanya'].includes(username as string))
+  if (lg && !['vanya'].includes(username as string))
     return <Navigate to={`/${lg}/vanya`} />;
 
   return (
