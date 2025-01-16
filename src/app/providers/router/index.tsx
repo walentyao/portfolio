@@ -1,8 +1,17 @@
 import { AppLayout } from '@layouts/AppLayout';
+import { Biography } from '@pages/Biography/Biography';
+import { Ind } from '@pages/Ind/Ind';
+import { Library } from '@pages/Library/Library';
+import { Links } from '@pages/Links/Links';
+import { Main } from '@pages/Main/Main';
+import { Referat } from '@pages/Referat/Referat';
+import { ReportSearch } from '@pages/ReportSearch/ReportSearch';
+import { Test } from '@pages/Test/Test';
+import { Uemk } from '@pages/Uemk/Uemk';
 import { AppRoutes } from '@shared/types';
-import { createBrowserRouter, Navigate } from 'react-router-dom';
+import { createHashRouter, Navigate } from 'react-router-dom';
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: '/',
     children: [
@@ -23,77 +32,43 @@ export const router = createBrowserRouter([
             children: [
               {
                 index: true,
-                lazy: async () => {
-                  const { Main } = await import('@pages/Main/Main');
-                  return { Component: Main };
-                },
+                element: <Main />,
               },
               {
                 path: AppRoutes.RESUME,
-                lazy: async () => {
-                  const { Main } = await import('@pages/Main/Main');
-                  return { Component: Main };
-                },
+                element: <Main />,
               },
               {
                 path: AppRoutes.BIOGRAFY,
-                lazy: async () => {
-                  const { Biography } = await import(
-                    '@pages/Biography/Biography'
-                  );
-                  return { Component: Biography };
-                },
+                element: <Biography />,
               },
               {
                 path: AppRoutes.REFERAT,
-                lazy: async () => {
-                  const { Referat } = await import('@pages/Referat/Referat');
-                  return { Component: Referat };
-                },
+                element: <Referat />,
               },
               {
                 path: AppRoutes.LIBRARY,
-                lazy: async () => {
-                  const { Library } = await import('@pages/Library/Library');
-                  return { Component: Library };
-                },
+                element: <Library />,
               },
               {
                 path: AppRoutes.LINKS,
-                lazy: async () => {
-                  const { Links } = await import('@pages/Links/Links');
-                  return { Component: Links };
-                },
+                element: <Links />,
               },
               {
                 path: AppRoutes.REPORT_SEARCH,
-                lazy: async () => {
-                  const { ReportSearch } = await import(
-                    '@pages/ReportSearch/ReportSearch'
-                  );
-                  return { Component: ReportSearch };
-                },
+                element: <ReportSearch />,
               },
               {
                 path: AppRoutes.IND_SECTION,
-                lazy: async () => {
-                  const { Ind } = await import('@pages/Ind/Ind');
-                  return { Component: Ind };
-                },
+                element: <Ind />,
               },
               {
                 path: AppRoutes.UEMK,
-                lazy: async () => {
-                  const { Uemk } = await import('@pages/Uemk/Uemk');
-                  return { Component: Uemk };
-                },
+                element: <Uemk />,
               },
               {
                 path: AppRoutes.TEST,
-                lazy: async () => {
-                  const { Test } = await import('@pages/Test/Test');
-                  return { Component: Test };
-                },
+                element: <Test />,
               },
             ],
           },

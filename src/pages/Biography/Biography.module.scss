@@ -18,3 +18,13 @@
     text-align: 'justify';
   }
 }
+
+.articleWrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.image {
+  width: 250px;
+}

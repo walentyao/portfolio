@@ -12,13 +12,13 @@ import { Data } from '@shared/types';
 export const mainResponseRu: Data = {
   info: {
     imageUrl: '/photo_2023-12-27_15-15-42.jpg',
-    name: 'Матюха Валентин Владимирович',
-    profession: 'Frontend разработчик',
+    name: 'Патоков Дамир Махмудович',
+    profession: 'Студент магистратуры',
     education:
-      'Факультет компьютерных технологий и прикладной математики Кафедра информационных технологий Специальность «Прикладная математика и информатика»',
+      'Факультет компьютерных технологий и прикладной математики. Кафедра информационных технологий. Направление: прикладная математика и информатика',
     themeGraduationPaper:
-      'Разработка системы для отслеживания и анализа ошибок и метрик производительности веб-приложений.',
-    teacher: 'Гаркуша Олег Васильевич',
+      'Научный руководитель: канд. физ.-мат. наук, зав.каф. В.В. Подколзин. Разработка рекомендательной системы для образовательного контента',
+    teacher: '',
   },
   aboutMe: [
     {
@@ -27,12 +27,12 @@ export const mainResponseRu: Data = {
         {
           label: 'ФИО',
           icon: UserIcon,
-          text: 'Матюха Валентин Владимирович',
+          text: 'Патоков Дамир Махмудович',
         },
         {
           label: 'Дата рождения',
           icon: CalendarIcon,
-          text: '25.02.2001',
+          text: '16.10.2000',
         },
         {
           label: 'Место проживания',
@@ -239,8 +239,7 @@ export const referatResponseEng = [
     body: 'Modern web applications play an important role in various fields of activity, from business to everyday life. To ensure their reliability and effectiveness, it is necessary to identify errors in a timely manner, track their causes and analyze performance metrics. The relevance of the topic lies in the increasing complexity of web applications and the need for automated solutions for their monitoring and analysis. This work is devoted to the development of a system capable of collecting error data and performance metrics, visualizing them and providing recommendations for optimization.',
   },
   {
-    title:
-      'Review of existing solutions and problem analysis',
+    title: 'Review of existing solutions and problem analysis',
     body: 'Today, there are many tools for monitoring web applications, such as Sentry, New Relic and Prometheus. However, most of them either require significant implementation costs or are difficult to set up for small and medium-sized projects. The main challenge is to integrate disparate performance and error data into a single system that is available for real-time analysis. The paper identified the key limitations of existing solutions, which allowed us to justify the need to develop our own system that will be more flexible and cost-effective.',
   },
   {
@@ -260,14 +259,17 @@ export const referatResponseEng = [
 export const biographyResponse = {
   articles: [
     {
+      src: '/image6.png',
       title: 'Личностное становление',
       body: 'За долгие годы обучения в университете  удалось попробовать множество языков программирования, больше всех понравился js, в последствии чего и начал развиваться в эту сторону',
     },
     {
+      src: '/image7.png',
       title: 'Профессиональное становление',
       body: 'На 2 курсе начал изучать язык JavaScript. По окончанию обучения и пары неудачных попыток, наконец удалось устроиться на работу. После положительных отзовов начальников повысили до позиции middle и дали под крыло стажёра, которого нужно было привести в чувства. ',
     },
     {
+      src: '/image8.png',
       title: 'Цели, планы и видение будущего',
       body: 'Хочется и дальше развиваться по карьерной лестнице в текущей компании, но также есть желание, открыть свою Web студию.',
     },
@@ -515,8 +517,7 @@ export const LibraryResponse = [
     authors: 'Иван Иванов, Ольга Смирнова',
     description:
       'Данная работа описывает разработку системы, предназначенной для автоматического сбора, анализа и визуализации данных о производительности и ошибках веб-приложений. Основное внимание уделяется использованию инструментов логирования, аналитики и уведомлений для быстрого реагирования на инциденты.',
-    source:
-      "Журнал 'Информационные технологии и аналитика', выпуск №5, 2023",
+    source: "Журнал 'Информационные технологии и аналитика', выпуск №5, 2023",
   },
   {
     title:
@@ -524,30 +525,26 @@ export const LibraryResponse = [
     authors: 'Анна Кузнецова, Дмитрий Петров',
     description:
       'В статье представлен подход к созданию системы, которая позволяет разработчикам и администраторам отслеживать ключевые метрики производительности веб-приложений и оперативно выявлять критические ошибки. Рассматриваются методы интеграции с популярными платформами аналитики и облачными сервисами.',
-    source:
-      "Конференция 'Современные веб-технологии', 2024",
+    source: "Конференция 'Современные веб-технологии', 2024",
   },
 ];
 export const LinkResponse = {
   literature: [
     {
-      title:
-        'Monitoring and Observability for Modern Web Applications',
+      title: 'Monitoring and Observability for Modern Web Applications',
       authors: 'Cindy Sridharan',
       description:
         'Книга подробно описывает подходы к мониторингу и наблюдаемости в веб-приложениях, включая использование метрик, журналов и трассировок для анализа производительности и ошибок.',
     },
     {
-      title:
-        'Site Reliability Engineering: How Google Runs Production Systems',
+      title: 'Site Reliability Engineering: How Google Runs Production Systems',
       authors:
         'Niall Richard Murphy, Betsy Beyer, Chris Jones, Jennifer Petoff',
       description:
         'Эта книга рассказывает о принципах и практиках, используемых Google для построения надежных и производительных систем, включая инструменты для отслеживания ошибок и управления метриками.',
     },
     {
-      title:
-        'Practical Monitoring: Effective Strategies for the Real World',
+      title: 'Practical Monitoring: Effective Strategies for the Real World',
       authors: 'Mike Julian',
       description:
         'Книга дает практическое руководство по настройке систем мониторинга и анализа производительности, описывает инструменты и процессы для быстрого обнаружения проблем и их устранения.',
@@ -579,23 +576,19 @@ export const UemkResponse = {
     'Данный учебный курс посвящен фундаментальным концепциям и методам программирования на языке JavaScript. Курс направлен на изучение и практическое освоение инструментов, которые позволяют создавать динамичные и интерактивные веб-приложения.В ходе занятий студенты познакомятся с основами JavaScript, включая работу с переменными, функциями, массивами и объектами. Уделено особое внимание асинхронному программированию, включая использование колбэков, промисов и async/await. Рассматриваются ключевые аспекты работы с DOM, обработка событий, а также основы модульного подхода к разработке и взаимодействие с API.Студенты научатся применять теоретические знания на практике, разрабатывая интерактивные пользовательские интерфейсы, управляя состоянием приложений и работая с внешними данными. В рамках курса предлагаются практические задания, имитирующие реальные сценарии веб-разработки, которые помогут развить навыки создания удобных, производительных и масштабируемых приложений с использованием JavaScript.',
   lectures: [
     {
-      title:
-        'Введение в JavaScript: основы синтаксиса и работы с данными',
+      title: 'Введение в JavaScript: основы синтаксиса и работы с данными',
       pathDocument: '/uemkValentin/1.docx',
     },
     {
-      title:
-        'Асинхронное программирование: от колбэков к async/await',
+      title: 'Асинхронное программирование: от колбэков к async/await',
       pathDocument: '/uemkValentin/2.docx',
     },
     {
-      title:
-        'Взаимодействие с DOM: динамическое управление веб-страницей',
+      title: 'Взаимодействие с DOM: динамическое управление веб-страницей',
       pathDocument: '/uemkValentin/3.docx',
     },
     {
-      title:
-        'Модульный подход в JavaScript: структурирование кода',
+      title: 'Модульный подход в JavaScript: структурирование кода',
       pathDocument: '/uemkValentin/4.docx',
     },
     {
@@ -603,13 +596,11 @@ export const UemkResponse = {
       pathDocument: '/uemkValentin/5.docx',
     },
     {
-      title:
-        'Основы проектирования пользовательских интерфейсов',
+      title: 'Основы проектирования пользовательских интерфейсов',
       pathDocument: '/uemkValentin/6.docx',
     },
     {
-      title:
-        'Производительность и масштабируемость приложений',
+      title: 'Производительность и масштабируемость приложений',
       pathDocument: '/uemkValentin/7.docx',
     },
   ],

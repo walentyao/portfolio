@@ -1,44 +1,37 @@
-import { user } from '@shared/mock';
-import { ContextUsername } from '@shared/context/username.context';
-import { useContext } from 'react';
 import cls from './Ind.module.scss';
+import { Card } from 'primereact/card';
 
 export const Ind = () => {
-  const username = useContext(ContextUsername);
-  const { PersonalLink } = user[username];
-  const data = PersonalLink;
   return (
     <section aria-label="Ind" className={cls.ind}>
-      <h3 className={cls.indTitle}>{data.title}</h3>
-      {!(username === 'valentin' || username === 'dmitry') && (
-        <video className={cls.indVideo} controls poster={data.preview}>
-          <source src={data.video} type="video/mp4" />
-        </video>
-      )}
-      {username === 'valentin' && (
-        <iframe
-          src="https://vkvideo.ru/video_ext.php?oid=-150878424&id=456239173&hd=2&autoplay=1"
-          width="853"
-          height="480"
-          allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
-          frameBorder="0"
-          allowFullScreen
-          className={cls.frame}
-        ></iframe>
-      )}
-      {username === 'dmitry' && (
-        <div>
-          <iframe
-            src="https://vkvideo.ru/video_ext.php?oid=-104975916&id=456239936&hd=1&autoplay=1"
-            width="640"
-            height="360"
-            allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
-            frameBorder="0"
-            className={cls.frame}
-            allowFullScreen
-          ></iframe>
+      <div className={cls.list}>
+        <div className={cls.item}>
+          <img src="/image3.png" alt="image" className={cls.image} />
+          <Card title="Спорт: баскетбол, бокс, дзюдо">
+            В настоящее время увлекаюсь конкретно баскетболом, но прежде в
+            школьные годы занимался 5 лет борьбой (дзюдо) и 2 года боксом
+          </Card>
         </div>
-      )}
+        <div className={cls.item}>
+          <img src="/image4.png" alt="image" className={cls.image} />
+          <Card title="Хобби: игра в шахматы, рисование">
+            Люблю поиграть в шахматы: на 2-ом курсе бакалавриата в КубГУ на
+            “неделе факультета” ФКТиПМ организовывал турнир по шахматам. Помимо
+            этого, мне доставляет удовольствие изрисовывать картины по номерам,
+            поскольку возникает иллюзия способности писать картины.
+          </Card>
+        </div>
+        <div className={cls.item}>
+          <img src="/image5.png" alt="image" className={cls.image} />
+          <Card title="Неотъемлемая часть жизни: музыка">
+            Музыка — это больше чем хобби. Она сопровождает меня во многих
+            повседневных делах, так как наполняет жизненную рутину яркими
+            красками. Предпочитаемые мной жанры: рок, металл, классика, фонк,
+            фолк, стоит также отметить пристрастия к саундтрекам для фильмов,
+            особенно написанных таким великим композитором, как Hans Zimmer.
+          </Card>
+        </div>
+      </div>
     </section>
   );
 };

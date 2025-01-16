@@ -9,18 +9,14 @@ export const Biography = () => {
   const { biographyResponse } = user[username];
   const data = biographyResponse;
   return (
-    <section
-      aria-label="biography"
-      className={cls.biography}
-    >
+    <section aria-label="biography" className={cls.biography}>
       {data.articles.map((article, index) => (
-        <Card
-          key={index}
-          title={article.title}
-          className={cls.article}
-        >
-          <p className={cls.articleBody}>{article.body}</p>
-        </Card>
+        <div className={cls.articleWrapper}>
+          <img src={article.src} alt="image" className={cls.image} />
+          <Card key={index} title={article.title} className={cls.article}>
+            <p className={cls.articleBody}>{article.body}</p>
+          </Card>
+        </div>
       ))}
     </section>
   );
