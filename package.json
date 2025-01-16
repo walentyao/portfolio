@@ -1,4 +1,5 @@
 {
+  "homepage": "https://walentyao.github.io/portfolio/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -7,11 +8,14 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
     "classnames": "^2.5.1",
+    "gh-pages": "^6.3.0",
     "primereact": "^10.8.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

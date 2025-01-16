@@ -28,6 +28,10 @@ export default defineConfig({
       '@layouts': path.resolve(__dirname, './src/layouts'),
     },
   },
+  build: {
+    outDir: 'build',
+    assetsDir: '.',
+  },
   css: {
     modules: {
       localsConvention: 'camelCase',
