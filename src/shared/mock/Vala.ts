@@ -37,7 +37,7 @@ export const mainResponseRu: Data = {
         {
           label: 'Место проживания',
           icon: MapPinIcon,
-          text: 'г. Краснодар',
+          text: 'Краснодарский край, г. Краснодар, ул. Московская 118',
         },
       ],
     },
